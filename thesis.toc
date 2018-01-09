@@ -1,0 +1,62 @@
+\contentsline {chapter}{DEDICATION}{ii}
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{iii}
+\contentsline {chapter}{LIST OF FIGURES}{vi}
+\contentsline {chapter}{LIST OF TABLES}{xii}
+\contentsline {chapter}{LIST OF APPENDICES}{xiii}
+\contentsline {chapter}{ABSTRACT}{xiv}
+\mbox { }\newline \noindent {\bf CHAPTER}\newline 
+\hbox { }
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf I.\hspace {5pt}}{\bf Introduction}}{1}
+\hbox { }
+\contentsline {subsection}{\numberline {1.0.1}Objective of the project}{1}
+\contentsline {subsection}{\numberline {1.0.2}Organization of Project}{1}
+\contentsline {subsection}{\numberline {1.0.3}Data Source:}{2}
+\contentsline {subsection}{\numberline {1.0.4}Time series forecasting using stochastic models}{3}
+\contentsline {subsection}{\numberline {1.0.5}Difference Stationary }{4}
+\contentsline {subsection}{\numberline {1.0.6}Seasonal Trend Decomposition Procedure based on LOESS (STL)}{7}
+\contentsline {subsection}{\numberline {1.0.7}Log-Linear Method}{9}
+\contentsline {subsection}{\numberline {1.0.8}Auto correlation Functions}{11}
+\contentsline {subsection}{\numberline {1.0.9}Hodrick and Prescott (HP) filter}{16}
+\contentsline {subsubsection}{\numberline {1.0.9.1}First-order conditions of the HP minimization problem}{17}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf II.\hspace {5pt}}{\bf Gabor Transformation}}{24}
+\hbox { }
+\contentsline {section}{\numberline {2.1}Signal Processing}{24}
+\contentsline {subsection}{\numberline {2.1.1}Sampling Theorem}{25}
+\contentsline {subsection}{\numberline {2.1.2}Rayleigh Frequency}{26}
+\contentsline {section}{\numberline {2.2}Fourier Transformation}{26}
+\contentsline {subsection}{\numberline {2.2.1}Shifting Theorem}{29}
+\contentsline {subsection}{\numberline {2.2.2}Discrete Fourier Transform}{31}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Inverse Discrete Fourier Transform}{33}
+\contentsline {subsection}{\numberline {2.2.3}Short Time Fourier Transformation}{34}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Gaussian Window}{34}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Hamming Window}{35}
+\contentsline {section}{\numberline {2.3}Introduction to Gabor Transformation}{36}
+\contentsline {subsection}{\numberline {2.3.1}Heisenberg's uncertainty principle}{37}
+\contentsline {subsection}{\numberline {2.3.2}Gabor Transformation }{38}
+\contentsline {subsection}{\numberline {2.3.3}Mask Operator}{42}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf III.\hspace {5pt}}{\bf Wigner Distribution}}{47}
+\hbox { }
+\contentsline {section}{\numberline {3.1}Wigner Distribution}{47}
+\contentsline {section}{\numberline {3.2}Wigner-Ville Distribution}{49}
+\contentsline {section}{\numberline {3.3}Discrete Wigner Distribution}{49}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf IV.\hspace {5pt}}{\bf Time Frequency Distribution Series}}{53}
+\hbox { }
+\contentsline {section}{\numberline {4.1}Time Frequency Distribution Series}{53}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf V.\hspace {5pt}}{\bf Color Chaos Model}}{59}
+\hbox { }
+\contentsline {section}{\numberline {5.1}Color Chaos}{59}
+\contentsline {subsection}{\numberline {5.1.1}Role of time scale \& reference trends in representation of business cycles}{60}
+\contentsline {subsection}{\numberline {5.1.2}Dimensionality}{62}
+\contentsline {subsection}{\numberline {5.1.3}Correlation Dimension}{62}
+\contentsline {subsection}{\numberline {5.1.4}Lyapunov exponent}{63}
+\contentsline {subsection}{\numberline {5.1.5}Instantaneous Autocorrelations and instantaneous frequency in Time-frequency representation}{64}
+\contentsline {subsection}{\numberline {5.1.6}Conclusion}{65}
+\contentsline {chapter}{APPENDICES}{75}
+\contentsline {section}{\numberline {C.1}Gabor Elementary function}{112}
+\contentsline {subsection}{\numberline {C.1.1}Proof: GEF has minimum uncertainty in the time-frequency domain}{113}
+\contentsline {chapter}{BIBLIOGRAPHY}{118}

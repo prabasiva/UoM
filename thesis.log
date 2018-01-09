@@ -1,0 +1,1349 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 SEP 2017 22:54
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./rac.sty
+ 
+Substyle `rac' for Rackham dissertation.
+ 
+\c@map=\count88
+) (./aas_macros.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks15
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsxtra.sty
+Package: amsxtra 1999/11/15 v1.2c AMS extra commands
+LaTeX Info: Redefining \nobreakspace on input line 54.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks24
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count102
+\rotFPtop=\skip49
+\rotFPbot=\skip50
+\rot@float@box=\box28
+\rot@mess@toks=\toks26
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen116
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen117
+\subfiglabelskip=\skip54
+\c@subfigure=\count103
+\c@lofdepth=\count104
+\c@subtable=\count105
+\c@lotdepth=\count106
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip55
+\subfig@bottom=\skip56
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count107
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count108
+\lst@gtempboxa=\box29
+\lst@token=\toks29
+\lst@length=\count109
+\lst@currlwidth=\dimen118
+\lst@column=\count110
+\lst@pos=\count111
+\lst@lostspace=\dimen119
+\lst@width=\dimen120
+\lst@newlines=\count112
+\lst@lineno=\count113
+\lst@maxwidth=\dimen121
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count114
+\lst@skipnumbers=\count115
+\lst@framebox=\box30
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count116
+\decimalpart=\count117
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\AC@clearlist=\toks30
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(./mcode.sty
+-- Package: `mcode' 2.7 <2015/11/11> --
+Package: mcode 2015/11/11 2.7
+ - settings optimized for display (colour formating)
+ - line numbering enabled
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\lbreakdots=\box31
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 230.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+))
+\c@theorem=\count118
+ (./thesis.aux
+
+LaTeX Warning: Label `fig:ACSP500' multiply defined.
+
+
+LaTeX Warning: Label `fig:ACNASDAQ' multiply defined.
+
+
+LaTeX Warning: Label `table:sp500trendstat' multiply defined.
+
+)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 91.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 91.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen122
+\scratchbox=\box32
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen123
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks32
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count125
+LaTeX Font Info:    Try loading font information for U+msa on input line 100.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 100.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Images/Happy.png, id=8, 489.83pt x 481.8pt>
+File: Images/Happy.png Graphic file (type png)
+ <use Images/Happy.png>
+Package pdftex.def Info: Images/Happy.png used on input line 106.
+(pdftex.def)             Requested size: 433.62pt x 426.52162pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 106--107
+[][] 
+ []
+
+[0 <./Images/Happy.png>] [1] [2] (./Intro/Acknowledgements.tex) [3]
+(./thesis.toc [4]
+Overfull \hbox (5.2949pt too wide) in paragraph at lines 57--57
+ [][] []\OT1/cmr/m/n/12 Instantaneous Au-to-cor-re-la-tions and in-stan-ta-neou
+s fre- 
+ []
+
+)
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
+
+ [5] (./thesis.lof [6]
+Overfull \hbox (5.09792pt too wide) in paragraph at lines 21--21
+ [][] []\OT1/cmr/m/n/12 Auto cor-re-la-tion for log NAS-DAQ a) Log NAS-DAQ b)Au
+toCorrelation 
+ []
+
+[7] [8] [9] [10])
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [11] (./thesis.lot)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
+
+ [12] (./thesis.loa)
+\tf@loa=\write7
+\openout7 = `thesis.loa'.
+
+ [13]
+(./Abstract/Abstract.tex) [14]
+CHAPTER I.
+(./Intro/Intro.tex
+Overfull \hbox (26.33011pt too wide) in paragraph at lines 13--21
+ [][] 
+ []
+
+[1
+
+
+
+] <Images/RawData.png, id=67, 3372.6pt x 2005.4925pt>
+File: Images/RawData.png Graphic file (type png)
+
+<use Images/RawData.png>
+Package pdftex.def Info: Images/RawData.png used on input line 28.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 28--29
+ [][] 
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 29
+\OT1/cmr/m/n/12 Figure 1.1: []
+ []
+
+[2 <./Images/RawData.png (PNG copy)>] [3] [4] [5]
+<Images/DS.png, id=84, 582.175pt x 657.45625pt>
+File: Images/DS.png Graphic file (type png)
+ <use Images/DS.png>
+Package pdftex.def Info: Images/DS.png used on input line 85.
+(pdftex.def)             Requested size: 378.40927pt x 427.3415pt.
+
+Overfull \hbox (58.58412pt too wide) detected at line 86
+\OT1/cmr/m/n/12 Figure 1.2: []
+ []
+
+[6 <./Images/DS.png>] <Images/STLSP500.png, id=89, 903.375pt x 451.6875pt>
+File: Images/STLSP500.png Graphic file (type png)
+
+<use Images/STLSP500.png>
+Package pdftex.def Info: Images/STLSP500.png used on input line 104.
+(pdftex.def)             Requested size: 451.6864pt x 225.84319pt.
+
+Overfull \hbox (18.0664pt too wide) in paragraph at lines 104--105
+ [][] 
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 105
+\OT1/cmr/m/n/12 Figure 1.3: []
+ []
+
+[7] <Images/STLNASDAQ.png, id=93, 903.375pt x 451.6875pt>
+File: Images/STLNASDAQ.png Graphic file (type png)
+
+<use Images/STLNASDAQ.png>
+Package pdftex.def Info: Images/STLNASDAQ.png used on input line 125.
+(pdftex.def)             Requested size: 451.6864pt x 225.84319pt.
+
+Overfull \hbox (18.0664pt too wide) in paragraph at lines 125--126
+ [][] 
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 126
+\OT1/cmr/m/n/12 Figure 1.4: []
+ []
+
+[8 <./Images/STLSP500.png>]
+<Images/LogLinear.png, id=98, 903.375pt x 451.6875pt>
+File: Images/LogLinear.png Graphic file (type png)
+
+<use Images/LogLinear.png>
+Package pdftex.def Info: Images/LogLinear.png used on input line 145.
+(pdftex.def)             Requested size: 451.6864pt x 225.84319pt.
+
+Overfull \hbox (18.0664pt too wide) in paragraph at lines 145--146
+ [][] 
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 146
+\OT1/cmr/m/n/12 Figure 1.5: []
+ []
+
+[9 <./Images/STLNASDAQ.png>]
+<Images/lltcsp500.png, id=104, 980.66376pt x 657.45625pt>
+File: Images/lltcsp500.png Graphic file (type png)
+
+<use Images/lltcsp500.png>
+Package pdftex.def Info: Images/lltcsp500.png used on input line 161.
+(pdftex.def)             Requested size: 490.33067pt x 328.72733pt.
+
+Overfull \hbox (56.71068pt too wide) in paragraph at lines 161--162
+ [][] 
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 162
+\OT1/cmr/m/n/12 Figure 1.6: []
+ []
+
+<Images/lltcnasdaq.png, id=105, 980.66376pt x 657.45625pt>
+File: Images/lltcnasdaq.png Graphic file (type png)
+
+<use Images/lltcnasdaq.png>
+Package pdftex.def Info: Images/lltcnasdaq.png used on input line 168.
+(pdftex.def)             Requested size: 490.33067pt x 328.72733pt.
+
+Overfull \hbox (56.71068pt too wide) in paragraph at lines 168--169
+ [][] 
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 169
+\OT1/cmr/m/n/12 Figure 1.7: []
+ []
+
+[10 <./Images/LogLinear.png>] [11 <./Images/lltcsp500.png>]
+<Images/ACExample.png, id=114, 582.175pt x 657.45625pt>
+File: Images/ACExample.png Graphic file (type png)
+
+<use Images/ACExample.png>
+Package pdftex.def Info: Images/ACExample.png used on input line 189.
+(pdftex.def)             Requested size: 378.40927pt x 427.3415pt.
+
+Overfull \hbox (58.58412pt too wide) detected at line 190
+\OT1/cmr/m/n/12 Figure 1.8: []
+ []
+
+<Images/ACSP500.png, id=115, 650.43pt x 657.45625pt>
+File: Images/ACSP500.png Graphic file (type png)
+ <use Images/ACSP500.png>
+Package pdftex.def Info: Images/ACSP500.png used on input line 195.
+(pdftex.def)             Requested size: 422.77449pt x 427.3415pt.
+
+Overfull \hbox (58.58412pt too wide) detected at line 196
+\OT1/cmr/m/n/12 Figure 1.9: []
+ []
+
+[12 <./Images/lltcnasdaq.png>]
+<Images/ACNASDAQ.png, id=120, 650.43pt x 654.445pt>
+File: Images/ACNASDAQ.png Graphic file (type png)
+ <use Images/ACNASDAQ.png>
+Package pdftex.def Info: Images/ACNASDAQ.png used on input line 208.
+(pdftex.def)             Requested size: 422.77449pt x 425.38422pt.
+
+Overfull \hbox (64.45906pt too wide) detected at line 209
+\OT1/cmr/m/n/12 Figure 1.10: []
+ []
+
+[13 <./Images/ACExample.png>] [14 <./Images/ACSP500.png>] [15 <./Images/ACNASDA
+Q.png>]
+Overfull \hbox (53.8536pt too wide) detected at line 246
+\OT1/cmr/m/n/12 Table 1.2: []
+ []
+
+
+Overfull \hbox (53.8536pt too wide) detected at line 262
+\OT1/cmr/m/n/12 Table 1.3: []
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16] [17] <Images/SP500HP80.png, id=141, 582.175pt x 657.45625pt>
+File: Images/SP500HP80.png Graphic file (type png)
+
+<use Images/SP500HP80.png>
+Package pdftex.def Info: Images/SP500HP80.png used on input line 322.
+(pdftex.def)             Requested size: 378.40927pt x 427.3415pt.
+
+Overfull \hbox (64.45906pt too wide) detected at line 323
+\OT1/cmr/m/n/12 Figure 1.11: []
+ []
+
+<Images/Lambda.png, id=142, 582.175pt x 657.45625pt>
+File: Images/Lambda.png Graphic file (type png)
+ <use Images/Lambda.png>
+Package pdftex.def Info: Images/Lambda.png used on input line 331.
+(pdftex.def)             Requested size: 378.40927pt x 427.3415pt.
+
+[18] <Images/SP500HP800.png, id=149, 582.175pt x 657.45625pt>
+File: Images/SP500HP800.png Graphic file (type png)
+
+<use Images/SP500HP800.png>
+Package pdftex.def Info: Images/SP500HP800.png used on input line 339.
+(pdftex.def)             Requested size: 378.40927pt x 427.3415pt.
+
+Overfull \hbox (64.45906pt too wide) detected at line 340
+\OT1/cmr/m/n/12 Figure 1.13: []
+ []
+
+<Images/NASDAQHP80.png, id=150, 582.175pt x 657.45625pt>
+File: Images/NASDAQHP80.png Graphic file (type png)
+
+<use Images/NASDAQHP80.png>
+Package pdftex.def Info: Images/NASDAQHP80.png used on input line 348.
+(pdftex.def)             Requested size: 378.40927pt x 427.3415pt.
+
+Overfull \hbox (64.45906pt too wide) detected at line 350
+\OT1/cmr/m/n/12 Figure 1.14: []
+ []
+
+<Images/NASDAQHP800.png, id=151, 582.175pt x 657.45625pt>
+File: Images/NASDAQHP800.png Graphic file (type png)
+
+<use Images/NASDAQHP800.png>
+Package pdftex.def Info: Images/NASDAQHP800.png used on input line 359.
+(pdftex.def)             Requested size: 378.40927pt x 427.3415pt.
+
+Overfull \hbox (64.45906pt too wide) detected at line 360
+\OT1/cmr/m/n/12 Figure 1.15: []
+ []
+
+[19 <./Images/SP500HP80.png>] [20 <./Images/Lambda.png>]) [21 <./Images/SP500HP
+800.png>] [22 <./Images/NASDAQHP80.png>] [23 <./Images/NASDAQHP800.png>]
+CHAPTER II.
+(./Chap2/chap2.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+ [24
+
+] [25] [26] <Images/fourier-sin.png, id=182, 3364.57pt x 1915.155pt>
+File: Images/fourier-sin.png Graphic file (type png)
+
+<use Images/fourier-sin.png>
+Package pdftex.def Info: Images/fourier-sin.png used on input line 50.
+(pdftex.def)             Requested size: 504.66373pt x 287.26085pt.
+
+Overfull \hbox (71.04373pt too wide) in paragraph at lines 50--51
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 51
+\OT1/cmr/m/n/12 Figure 2.1: []
+ []
+
+[27 <./Images/fourier-sin.png (PNG copy)>] [28] [29] [30]
+<Images/fourier3.png, id=196, 3372.6pt x 2005.4925pt>
+File: Images/fourier3.png Graphic file (type png)
+
+<use Images/fourier3.png>
+Package pdftex.def Info: Images/fourier3.png used on input line 156.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 156--157
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 157
+\OT1/cmr/m/n/12 Figure 2.2: []
+ []
+
+[31] [32 <./Images/fourier3.png (PNG copy)>]
+Overfull \hbox (30.55215pt too wide) in paragraph at lines 180--203
+[]$[]$  \OT1/cmr/m/n/12 = $[]$ $[]$ 
+ []
+
+<Images/DFTRANDI.png, id=203, 1927.2pt x 1032.85875pt>
+File: Images/DFTRANDI.png Graphic file (type png)
+
+<use Images/DFTRANDI.png>
+Package pdftex.def Info: Images/DFTRANDI.png used on input line 207.
+(pdftex.def)             Requested size: 423.98532pt x 227.22963pt.
+
+Overfull \hbox (58.58412pt too wide) detected at line 208
+\OT1/cmr/m/n/12 Figure 2.3: []
+ []
+
+[33 <./Images/DFTRANDI.png (PNG copy)>]
+Overfull \hbox (8.35591pt too wide) in paragraph at lines 220--243
+[]$[]$  \OT1/cmr/m/n/12 = $[]$ $[]$ $[]$ 
+ []
+
+[34] <Images/GWinHWin.png, id=213, 3372.6pt x 2005.4925pt>
+File: Images/GWinHWin.png Graphic file (type png)
+
+<use Images/GWinHWin.png>
+Package pdftex.def Info: Images/GWinHWin.png used on input line 273.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 273--274
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 274
+\OT1/cmr/m/n/12 Figure 2.4: []
+ []
+
+<Images/Spectrum.png, id=214, 3372.6pt x 2005.4925pt>
+File: Images/Spectrum.png Graphic file (type png)
+
+<use Images/Spectrum.png>
+Package pdftex.def Info: Images/Spectrum.png used on input line 296.
+(pdftex.def)             Requested size: 539.62703pt x 320.88536pt.
+
+Overfull \hbox (106.00703pt too wide) in paragraph at lines 296--297
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 297
+\OT1/cmr/m/n/12 Figure 2.5: []
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+[36 <./Images/GWinHWin.png (PNG copy)>] [37 <./Images/Spectrum.png (PNG copy)>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 344--346
+
+ []
+
+<Images/GaborThreshold50.png, id=228, 3372.6pt x 2005.4925pt>
+File: Images/GaborThreshold50.png Graphic file (type png)
+
+<use Images/GaborThreshold50.png>
+Package pdftex.def Info: Images/GaborThreshold50.png used on input line 361.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 361--362
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 362
+\OT1/cmr/m/n/12 Figure 2.6: []
+ []
+
+<Images/GaborThreshold16.png, id=229, 3372.6pt x 2005.4925pt>
+File: Images/GaborThreshold16.png Graphic file (type png)
+
+<use Images/GaborThreshold16.png>
+Package pdftex.def Info: Images/GaborThreshold16.png used on input line 367.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 367--368
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 368
+\OT1/cmr/m/n/12 Figure 2.7: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+
+ []
+
+[40 <./Images/GaborThreshold50.png (PNG copy)>] [41 <./Images/GaborThreshold16.
+png (PNG copy)>] <Images/GaborMasked50.png, id=240, 3372.6pt x 2005.4925pt>
+File: Images/GaborMasked50.png Graphic file (type png)
+
+<use Images/GaborMasked50.png>
+Package pdftex.def Info: Images/GaborMasked50.png used on input line 413.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 413--414
+[][]
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 414--414
+\OT1/cmr/m/n/12 and Fig b is the Fil-tered Ga-bor Co-ef-fi-cient for HP Fil-ter
+ cy-cles
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 414
+\OT1/cmr/m/n/12 Figure 2.8: []
+ []
+
+<Images/GaborMasked16.png, id=241, 3372.6pt x 2005.4925pt>
+File: Images/GaborMasked16.png Graphic file (type png)
+
+<use Images/GaborMasked16.png>
+Package pdftex.def Info: Images/GaborMasked16.png used on input line 419.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 419--420
+[][]
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 420--420
+\OT1/cmr/m/n/12 and Fig b is the Fil-tered Ga-bor Co-ef-fi-cient for HP Fil-ter
+ cy-cles
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 420
+\OT1/cmr/m/n/12 Figure 2.9: []
+ []
+
+<Images/GaborPST16.png, id=242, 3372.6pt x 2005.4925pt>
+File: Images/GaborPST16.png Graphic file (type png)
+
+<use Images/GaborPST16.png>
+Package pdftex.def Info: Images/GaborPST16.png used on input line 425.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 425--426
+[][]
+ []
+
+
+Overfull \hbox (64.45906pt too wide) detected at line 426
+\OT1/cmr/m/n/12 Figure 2.10: []
+ []
+
+<Images/GaborPST50.png, id=243, 3372.6pt x 2005.4925pt>
+File: Images/GaborPST50.png Graphic file (type png)
+
+<use Images/GaborPST50.png>
+Package pdftex.def Info: Images/GaborPST50.png used on input line 432.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 432--433
+[][]
+ []
+
+
+Overfull \hbox (64.45906pt too wide) detected at line 433
+\OT1/cmr/m/n/12 Figure 2.11: []
+ []
+
+[42]
+Overfull \hbox (8.03415pt too wide) detected at line 469
+\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 u \OT1
+/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^U []
+ []
+
+
+Overfull \hbox (5.05495pt too wide) detected at line 474
+\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 y\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 v \OT1
+/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^U []
+ []
+
+[43 <./Images/GaborMasked50.png (PNG copy)>]) [44 <./Images/GaborMasked16.png (
+PNG copy)>] [45 <./Images/GaborPST16.png (PNG copy)>] [46 <./Images/GaborPST50.
+png (PNG copy)>]
+CHAPTER III.
+(./Chap3/chap3.tex [47
+
+] [48] [49]
+<Images/WVD_sp500.png, id=269, 3372.6pt x 2005.4925pt>
+File: Images/WVD_sp500.png Graphic file (type png)
+
+<use Images/WVD_sp500.png>
+Package pdftex.def Info: Images/WVD_sp500.png used on input line 82.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 82--83
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 83
+\OT1/cmr/m/n/12 Figure 3.1: []
+ []
+
+<Images/WVD_nasdaq.png, id=270, 3372.6pt x 2005.4925pt>
+File: Images/WVD_nasdaq.png Graphic file (type png)
+
+<use Images/WVD_nasdaq.png>
+Package pdftex.def Info: Images/WVD_nasdaq.png used on input line 88.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 88--89
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 89
+\OT1/cmr/m/n/12 Figure 3.2: []
+ []
+
+) [50] [51 <./Images/WVD_sp500.png (PNG copy)>] [52 <./Images/WVD_nasdaq.png (P
+NG copy)>]
+CHAPTER IV.
+(./Chap4/chap4.tex <Images/WVD_gauss.png, id=281, 3372.6pt x 2005.4925pt>
+File: Images/WVD_gauss.png Graphic file (type png)
+
+<use Images/WVD_gauss.png>
+Package pdftex.def Info: Images/WVD_gauss.png used on input line 23.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 23--24
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 24
+\OT1/cmr/m/n/12 Figure 4.1: []
+ []
+
+[53
+
+] [54 <./Images/WVD_gauss.png (PNG copy)>] [55] [56] [57]
+Overfull \hbox (21.36652pt too wide) detected at line 161
+\OML/cmm/m/it/12 WVD[]\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i; k\OT1/cmr/m/n/12 ] =
+ 2\OML/cmm/m/it/12 e[]e[]
+ []
+
+) [58]
+CHAPTER V.
+(./Chap1/chap1.tex [59
+
+] [60] [61] [62]
+<Images/SP500CD1.png, id=314, 3372.6pt x 2005.4925pt>
+File: Images/SP500CD1.png Graphic file (type png)
+
+<use Images/SP500CD1.png>
+Package pdftex.def Info: Images/SP500CD1.png used on input line 65.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 65--66
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 66
+\OT1/cmr/m/n/12 Figure 5.1: []
+ []
+
+<Images/SP500CD2.png, id=315, 3372.6pt x 2005.4925pt>
+File: Images/SP500CD2.png Graphic file (type png)
+
+<use Images/SP500CD2.png>
+Package pdftex.def Info: Images/SP500CD2.png used on input line 71.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 71--72
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 72
+\OT1/cmr/m/n/12 Figure 5.2: []
+ []
+
+<Images/NASDAQCD1.png, id=316, 3372.6pt x 2005.4925pt>
+File: Images/NASDAQCD1.png Graphic file (type png)
+
+<use Images/NASDAQCD1.png>
+Package pdftex.def Info: Images/NASDAQCD1.png used on input line 77.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 77--78
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 78
+\OT1/cmr/m/n/12 Figure 5.3: []
+ []
+
+<Images/NASDAQCD2.png, id=317, 3372.6pt x 2005.4925pt>
+File: Images/NASDAQCD2.png Graphic file (type png)
+
+<use Images/NASDAQCD2.png>
+Package pdftex.def Info: Images/NASDAQCD2.png used on input line 83.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 83--84
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 84
+\OT1/cmr/m/n/12 Figure 5.4: []
+ []
+
+[63 <./Images/SP500CD1.png (PNG copy)>]
+Overfull \hbox (11.99115pt too wide) in paragraph at lines 107--107
+[]\OT1/cmr/bx/n/12 Instantaneous Au-to-cor-re-la-tions and in-stan-ta-neous fre
+-quency in Time-
+ []
+
+[64 <./Images/SP500CD2.png (PNG copy)>]
+<Images/NASDAQRawChaos.png, id=325, 629.35126pt x 472.76625pt>
+File: Images/NASDAQRawChaos.png Graphic file (type png)
+
+<use Images/NASDAQRawChaos.png>
+Package pdftex.def Info: Images/NASDAQRawChaos.png used on input line 112.
+(pdftex.def)             Requested size: 440.54288pt x 330.93411pt.
+
+Overfull \hbox (6.92288pt too wide) in paragraph at lines 112--113
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 113
+\OT1/cmr/m/n/12 Figure 5.5: []
+ []
+
+<Images/NASFiltAttract.png, id=326, 3372.6pt x 2005.4925pt>
+File: Images/NASFiltAttract.png Graphic file (type png)
+
+<use Images/NASFiltAttract.png>
+Package pdftex.def Info: Images/NASFiltAttract.png used on input line 118.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 118--119
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 119
+\OT1/cmr/m/n/12 Figure 5.6: []
+ []
+
+<Images/SP500RawChaos.png, id=327, 629.35126pt x 472.76625pt>
+File: Images/SP500RawChaos.png Graphic file (type png)
+
+<use Images/SP500RawChaos.png>
+Package pdftex.def Info: Images/SP500RawChaos.png used on input line 124.
+(pdftex.def)             Requested size: 440.54288pt x 330.93411pt.
+
+Overfull \hbox (6.92288pt too wide) in paragraph at lines 124--125
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 125
+\OT1/cmr/m/n/12 Figure 5.7: []
+ []
+
+<Images/SPFiltAttract.png, id=328, 3372.6pt x 2005.4925pt>
+File: Images/SPFiltAttract.png Graphic file (type png)
+
+<use Images/SPFiltAttract.png>
+Package pdftex.def Info: Images/SPFiltAttract.png used on input line 130.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 130--131
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 131
+\OT1/cmr/m/n/12 Figure 5.8: []
+ []
+
+<Images/SP500Recon.png, id=329, 3372.6pt x 2005.4925pt>
+File: Images/SP500Recon.png Graphic file (type png)
+
+<use Images/SP500Recon.png>
+Package pdftex.def Info: Images/SP500Recon.png used on input line 139.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 139--140
+[][]
+ []
+
+
+Overfull \hbox (58.58412pt too wide) detected at line 140
+\OT1/cmr/m/n/12 Figure 5.9: []
+ []
+
+<Images/NASRecon.png, id=330, 3372.6pt x 2005.4925pt>
+File: Images/NASRecon.png Graphic file (type png)
+
+<use Images/NASRecon.png>
+Package pdftex.def Info: Images/NASRecon.png used on input line 145.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 145--146
+[][]
+ []
+
+
+Overfull \hbox (64.45906pt too wide) detected at line 146
+\OT1/cmr/m/n/12 Figure 5.10: []
+ []
+
+<Images/FDAR2SP500.png, id=331, 3372.6pt x 2005.4925pt>
+File: Images/FDAR2SP500.png Graphic file (type png)
+
+<use Images/FDAR2SP500.png>
+Package pdftex.def Info: Images/FDAR2SP500.png used on input line 151.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 151--152
+[][]
+ []
+
+
+Overfull \hbox (64.45906pt too wide) detected at line 152
+\OT1/cmr/m/n/12 Figure 5.11: []
+ []
+
+<Images/FDAR2NASDAQ.png, id=332, 3372.6pt x 2005.4925pt>
+File: Images/FDAR2NASDAQ.png Graphic file (type png)
+
+<use Images/FDAR2NASDAQ.png>
+Package pdftex.def Info: Images/FDAR2NASDAQ.png used on input line 158.
+(pdftex.def)             Requested size: 505.86818pt x 300.8109pt.
+
+Overfull \hbox (72.24818pt too wide) in paragraph at lines 158--159
+[][]
+ []
+
+
+Overfull \hbox (64.45906pt too wide) detected at line 159
+\OT1/cmr/m/n/12 Figure 5.12: []
+ []
+
+[65 <./Images/NASDAQCD1.png (PNG copy)>]) [66 <./Images/NASDAQCD2.png (PNG copy
+)>] [67 <./Images/NASDAQRawChaos.png>] [68 <./Images/NASFiltAttract.png (PNG co
+py)>] [69 <./Images/SP500RawChaos.png>] [70 <./Images/SPFiltAttract.png (PNG co
+py)>] [71 <./Images/SP500Recon.png (PNG copy)>] [72 <./Images/NASRecon.png (PNG
+ copy)>] [73 <./Images/FDAR2SP500.png (PNG copy)>] [74 <./Images/FDAR2NASDAQ.pn
+g (PNG copy)>] [75
+
+]
+APPENDIX A.
+(./Appendices/Appendix_Open_R.tex
+(/Users/sivasp1/Documents/2016/Personal/Praba/Math599/program/fdplot.R
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+)
+(/Users/sivasp1/Documents/2016/Personal/Praba/Math599/program/llt.R [76
+
+])
+(/Users/sivasp1/Documents/2016/Personal/Praba/Math599/program/hpfilter_slave.R
+[77] [78] [79])
+(/Users/sivasp1/Documents/2016/Personal/Praba/Math599/program/loglinear.R)
+(/Users/sivasp1/Documents/2016/Personal/Praba/Math599/program/AutoCorrelation.R
+[80] [81] [82]
+Overfull \hbox (8.25108pt too wide) in paragraph at lines 174--176
+[][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+)) [83]
+APPENDIX B.
+(./Appendices/Appendix_Open_Matlab.tex
+(/Users/sivasp1/Documents/2017/Personal/program/DrawSinFourierGraph.m [84
+
+])
+(/Users/sivasp1/Documents/2017/Personal/program/SPNASDAQFourier.m [85] [86])
+(/Users/sivasp1/Documents/2017/Personal/program/ghamwin.m)
+(/Users/sivasp1/Documents/2017/Personal/program/drawSpecEg.m [87])
+(/Users/sivasp1/Documents/2017/Personal/program/drawSpecEco.m [88])
+(/Users/sivasp1/Documents/2017/Personal/program/drawSTFTECo3D.m [89])
+(/Users/sivasp1/Documents/2017/Personal/program/stft2.m [90])
+(/Users/sivasp1/Documents/2017/Personal/program/getData.m
+Overfull \hbox (1.45107pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+) (/Users/sivasp1/Documents/2017/Personal/program/mywvd.m [91])
+(/Users/sivasp1/Documents/2017/Personal/program/mywvdgauss.m [92])
+(/Users/sivasp1/Documents/2017/Personal/program/mygabor.m [93] [94])
+(/Users/sivasp1/Documents/2017/Personal/program/myfiltgabor.m [95] [96]
+[97]) (/Users/sivasp1/Documents/2017/Personal/program/myreconsfromgabor.m
+[98] [99] [100] [101])
+(/Users/sivasp1/Documents/2017/Personal/program/myAttractor.m [102] [103]
+[104]) (/Users/sivasp1/Documents/2017/Personal/program/myFDfilter.m [105])
+(/Users/sivasp1/Documents/2017/Personal/program/mydft.m)
+(/Users/sivasp1/Documents/2017/Personal/program/drawCorrDim.m [106]
+Overfull \hbox (23.45103pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[107]) (/Users/sivasp1/Documents/2017/Personal/program/spectrumAnalysis5.m
+[108] [109]) (/Users/sivasp1/Documents/2017/Personal/program/drawDataGraph.m
+[110])) [111]
+APPENDIX C.
+(./Appendices/proof.tex [112
+
+] [113] [114] [115] [116]) [117] (./thesis.bbl
+[118
+
+]) [119
+
+] (./thesis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6549 strings out of 493014
+ 92890 string characters out of 6133351
+ 257054 words of memory out of 5000000
+ 9790 multiletter control sequences out of 15000+600000
+ 16146 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,16n,42p,1297b,1520s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on thesis.pdf (135 pages, 9944550 bytes).
+PDF statistics:
+ 582 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+

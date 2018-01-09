@@ -1,0 +1,361 @@
+`\section{Signal Processing}
+An arbitrary signal given by a function $f(t)$ can be represented by many forms for better understanding of the signal. The representation of the signal $f(t)$ in a different form depends on type of application the user is interested in. In few cases, the original signals are perfectly fine as is for a given application.
+
+In signal processing there are two major field of study.
+\begin{itemize}
+  \item  {Signal synthesis - Construction of a signal}
+  \item  {Signal analysis - Study of a signal}
+\end{itemize}
+
+Gabor in his original paper - Theory of communication \cite{gabor}, stated that a time function $f(t)$ in the time interval $t_2-t_1=\tau$  contains an infinite data and it can be signal in $\tau$ can be further sub divided into $N$ sub-intervals,  and define, for instance, the average ordinate in each sub-interval as a "datum" . There are infinite ways to represent $f(t)$ in the internal $\tau$ and one of the way is to represent $f(t)$ in the interval $\tau$ by a polynomial of order $N$, to fit it as closely as possible of $f(t)$ by the method of least squares, and to take the coefficients of the polynomial as data. . The polynomial coefficients of the curve is the data represents the curve in the interval.  The polynomial can be specified such a way that moments ${M_n}$ equal to as follows and it is equivalent of the polynomial coefficient
+\begin{equation*}
+M_0 = \int_{0}^{\tau}{f(t)dt};  M_1 = \int_{0}^{\tau}{tf(t)dt};  M_2 = \int_{0}^{\tau}{t^2f(t)dt};  ..  M_{N-1} = \int_{0}^{\tau}t^{N-1}{f(t)dt}
+\end{equation*}
+The function $f(t)$ in the interval $\tau$ is expanded in the terms of set of powers of time functions.
+If the purpose is to transmit the signal,then the moments (equivalent of polynomial coefficients) can be transmitted and the signal can be reconstructed at the other end.
+
+Instead of representing the function $f(t)$ in the interval $\tau$ in terms of powers of time functions, it can be represented by orthogonal functions ${\phi}_k(t)$ in the interval 0 $<$ t $<$ $\tau$ and it is equivalent of fitting the expansion. How close the fit will be depends on the set of orthogonal functions selected and type of applications.
+
+\section{Fourier Transformation}
+If the orthogonal function set is simple harmonic functions sine and cosine in the interval extending from ${-\infty}$ to ${\infty}$, then the given signal is presented in the frequency domain and it is called the Fourier transformation.
+
+
+\begin{equation}
+F(s) = \int_{-\infty}^{\infty}{f(t)e^{-j2\pi ts}dt};
+\end{equation}
+$F(s)$ is the Fourier transform of $f(t)$. The inverse Fourier transform function $F(s)$ provides the function $f(t)$ and the equation for this is given below.
+\begin{equation}
+f(t) = \int_{-\infty}^{\infty}{F(s)e^{j2\pi ts}ds}
+\end{equation}
+
+Fourier transformation is a tool to translate a signal from time domain to frequency domain and vice versa. In fact, it is an apt tool to analyze a signal in the frequency domain given the signal does not evolve over the time, but, most of the practical signals like music, seismic and others evolve over the time. It is challenging to study and understand the insights of those signals in the frequency domain by just using Fourier transformation. In recent years, there are many ideas proposed to overcome that challenge and gain more insights of the signals in other domains. 
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/fourier-sin}
+\caption{Fourier Transform for a discretized time signal sine wave with three different frequencies and respective discrete Fourier transform is given above. The sampling period used is 0.001 and total length of signal (L) is 200. The graph was created using Matlab code DrawSinFourierGraph.m and it is attached in the Appendix B}
+\label{fig:Fourier-sin}
+\end{figure}
+
+In the above figure \ref{figure:Fourier-sin}, a sine wave with different frequencies ${f = 50,150,300}$ is transformed into a frequency domain using the discrete Fourier transform. Please note high amplitude in the frequency domain for their respective frequency in each graph. $\omega = 2\pi f$.
+
+\begin{equation}
+f(t) = \sin(\omega t); 
+\end{equation}
+Three type of sine wave created with frequencies ${f =50, 150,300}$. The Fourier transform of the $f(t)$ is given by
+\begin{equation}
+F(s) = \int_{-\infty}^{\infty}{\sin(\omega t) e^{-j2\pi t s }dt};
+\end{equation}
+
+Dirac Delta equation 
+\begin{equation}
+\frac{d(s-\omega) - d(s+\omega)}{2i}
+\end{equation}
+where $d(s)$ is Dirac Delta function.
+
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/fourier3}
+\caption{Fourier transform for a) Zero mean signal with random noise, b) Zero mean signal, c) Gaussian , d) Log NASDAQ, e) Log S\&P 500. The pgoram used to generate the graph is SPNASDAQFourier.m and stored in Appendix }
+\label{fig:Fourier3}
+\end{figure}
+
+In the above figure \ref{fig:Fourier3} , a signal with zero mean random noise, signal with zero mean with no random noise, Gaussian curve, $log$ sp500, $log$ Nasdaq are also transformed into a  frequency domain using the discrete Fourier transform. $|F(s)|$ is an even function and so only $s>0$ is shown in figure \ref{fig:Fourier}.
+\subsection{Discrete Fourier Transform}
+The Discrete Fourier Transform (DFT) is the equivalent of the continuous Fourier Transform for signals known only at N instant separated by sample times T (i.e a finite sequence of data). Let $f(k)$ be a continuous signal and $N$ samples be denoted by $f(0), f(1), f(2)... f(k),...f(N-1)$. Each sample $f(k)$ regarded as an impulse having area $f(k)$ and integrand exists only at the sample points.
+
+\begin{comment}
+\begin{align}
+F(j2\pi s) &= \int_{0}^{(N-1)T}{f(t)e^{-j2\pi ts}dt}; \\
+&= f[0]e^{-j0} + f(1)e^{-j2\pi sT}+...+f(k)e^{-j2\pi skT}+....f(N-1)e^{-j2\pi(N-1)T} \\
+&= \sum_{k=0}^{N-1} f(k) e^{-j2\pi sk T}
+\end{align}
+\end{comment}
+There are only a finite number of input data points, the DFT treats the data as if it were periodic i.e $f(N)$ to $f(2N-1)$ is the same as $f(0)$ to $f(N-1)$. In general, the discrete Fourier Transform is given by
+\begin{equation}
+F(s) = \sum_{k=0}^{N-1} f(k) e^{-j\frac{2\pi}{N} sk }
+\end{equation}
+$s = 0,1,..,N-1$.
+\begin{equation}
+e^{j\frac{2\pi}{N}} = \cos(\frac{2\pi}{N}) + j \sin(\frac{2\pi}{N})
+\end{equation}
+is the principal N-th root of unity. $ e^{j\frac{2\pi s}{N}}$ has a period of N, the DFT coefficients $F(s)$ are periodic with period N when $s$ is taken outside the range $s = 0,1,2,...N-1$. There are only a finite number of input data points, the DFT treats the data as if it were periodic i.e $f(N)$ to $f(2N-1)$ is the same as $f(0)$ to $f(N-1)$. 
+$F(s)$ is the Discrete Fourier Transform of the sequence $f(t)$. The matrix-vector format of the Discrete Fourier Transform are given by
+
+
+$\underbrace{
+\begin{bmatrix}
+F(0) \\
+F(1) \\
+F(2) \\
+\vdots \\
+\vdots \\
+F(N-1)
+\end{bmatrix} }_{\text{DFT Vector} }$ \qquad
+=
+$\underbrace{
+\begin{bmatrix}
+1 & 1 & \cdots & \cdots & 1 \\
+1 & e^{-j(\frac{2\pi}{N})} & e^{-j(\frac{4\pi}{N})}\cdots & \cdots & e^{-j\frac{2(N-1)\pi}{N}} \\
+1 & e^{-j(\frac{4\pi}{N})} & e^{-j(\frac{8\pi}{N})}\cdots & \cdots &  e^{-j\frac{4(N-1)\pi}{N}} \\
+\vdots & & & \vdots \\
+\vdots & & & \vdots \\
+1 & e^{-j(\frac{2(N-1)\pi}{N})} & e^{-j(\frac{4(N-1)\pi}{N})}\cdots & \cdots & e^{-j\frac{2(N-1)(N-1)\pi}{N}} \\
+\end{bmatrix} }_{\text{DFT Matrix:F}}$
+$\underbrace{
+\begin{bmatrix}
+f(0) \\ f(1) \\ f(2) \\ \vdots \\ \vdots \\ f(N-1) 
+\end{bmatrix}}_{\text{Input Signal}}$
+
+The above matrix multiplication can also be used to compute the Discrete Fourier Transform of a given signal $f(t)$.  The Discrete Fourier Transform matrix F can be precomputed as it is independent of the input signal. 
+
+\begin{figure}[!ht]
+\includegraphics[scale=.22]{Images/DFTRANDI}
+\caption{Discrete Fourier Transform \& Inverse DFT real and imaginary part. The above surface created using the matrix F. The graph is created using Matlab program named mydft.m attached in the Appendix}
+\label{fig:DFTRANDI}
+\end{figure}
+
+\subsubsection{Inverse Discrete Fourier Transform}
+The inverse transform of Discrete Fourier Transform is given by
+
+\begin{equation}
+f(t) = \frac{1}{N}\sum_{k=0}^{N-1} F(k) e^{j\frac{2\pi}{N} tk }
+\end{equation}
+The matrix-vector format of the Inverse Discrete Fourier Transform are given by
+
+$\underbrace{
+\begin{bmatrix}
+f(0) \\
+f(1) \\
+f(2) \\
+\vdots \\
+\vdots \\
+f(N-1)
+\end{bmatrix}}_{\text{Original Signal}}$ \!
+= $\frac{1}{N}$
+$\underbrace{
+\begin{bmatrix}
+1 & 1 & \cdots & \cdots & 1 \\
+1 & e^{j(\frac{2\pi}{N})} & e^{j(\frac{4\pi}{N})}\cdots & \cdots & e^{j(\frac{2(N-1)\pi}{N}} \\
+1 & e^{j(\frac{4\pi}{N})} & e^{j(\frac{8\pi}{N})}\cdots & \cdots &  e^{j(\frac{4(N-1)\pi}{N}} \\
+\vdots & & & \vdots \\
+\vdots & & & \vdots \\
+1 & e^{j(\frac{2(N-1)\pi}{N})} & e^{j(\frac{4(N-1)\pi}{N})}\cdots & \cdots & e^{j(\frac{2(N-1)(N-1)\pi}{N}}) \\
+\end{bmatrix} }_{\text{Inverse DFT Matrix:G}}$
+$\underbrace{
+\begin{bmatrix}
+F(0) \\ F(1) \\ F(2) \\ \vdots \\ \vdots \\ F(N-1) 
+\end{bmatrix}}_{\text{DFT Vector}}$
+
+The inverse DFT matrix G is inverse of matrix F and scaled by a factor of $\frac{1}{N}$. $G * F = F * G = I$, where as I is an identify matrix of order N. 
+
+\subsection{Short Time Fourier Transformation}
+ One of the ideas is to chop the signal into smaller pieces and perform Fourier transformation for each piece. This technique is called short time Fourier Transform. The smaller pieces in the signal can be chosen by a window function $w(t-\tau)$
+ \begin{equation}
+F(\omega,\tau) = \int_{-\infty}^{\infty}{f(t)w(t-\tau)e^{-j2\pi t \omega }dt};
+\end{equation}
+$w(t)$ represents a window function and there are multiple window functions available to choose. 
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/GWinHWin}
+\caption{Window function (window length  =25) for a) Gaussian b) Hamming. The graph was created using Matlab program ghamwin.m and attached in Appendix B }
+\label{fig:ghamwin}
+\end{figure}
+
+The short time Fourier transform is performed using Hamming and Gaussian window and its results are given below.
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/SigHamWin}
+\caption{Window Length=25; $\tau$ = 25 Hamming Window function used for short time Fourier Transform for a) Zero Mean Signal with Random Noise  b) Zero Mean signal. The graph was created using Matlab program drawSTFTEg.m and attached in Appendix B }
+\label{fig:SigHamWin}
+\end{figure}
+
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/EcoHamWin}
+\caption{Window Length=25; $\tau$ = 25 Hamming Window function used for short time Fourier Transform for a) Log NASDAQ  b) Log SP500. The graph was created using Matlab program drawSTFTEco.m and attached in the Appendix B}
+\label{fig:EcoHamWin}
+\end{figure}
+
+
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/SigGaussWin}
+\caption{Window Length=25; $\tau$ = 25 Gaussian Window function used for short time Fourier Transform for a) Zero Mean Signal with Random Noise  b) Zero Mean signal. The graph was created using Matlab program drawSTFTEco.m and attached in the Appendix B }
+\label{fig:SigGaussWin}
+\end{figure}
+
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/EcoGaussWin}
+\caption{Window Length=25; $\tau$ = 25 Gaussian Window function used for short time Fourier Transform for a) Log NASDAQ  b) Log SP500.The graph was created using Matlab program drawSTFTEco.m and attached in the Appendix B}
+\label{fig:EcoGaussWin}
+\end{figure}
+
+
+Simultaneous analysis of signals in both time and frequency domains provides better understanding of the signal and short time Fourier transform laid the foundation for the joint time-frequency analysis.
+\section{Introduction}
+Gabor transformation or expansion in signal synthesis uses the Gabor elementary function (GEF) as the base function (equivalent of simple harmonic function in the Fourier transform) and idea was influenced by Heisenberg's uncertainty principle.  \\
+\subsection{Heisenberg's uncertainty principle}
+In quantum mechanics, simultaneously, both position of a particle and momentum of the particle can not be measured preciously. Let $x$ be position and $p$ be momentum of the particle. Standard deviation of $x$ and $p$ are given by $\Delta x$ and $\Delta p$ respectively. Uncertainty principle states that product of variance of position and momentum is greater than or equal to $\frac{\hbar}{2}$
+\begin{equation*}
+\Delta x\Delta p \geq \frac{\hbar}{2}
+\end{equation*}
+\begin{equation*}
+\Delta x = \sqrt{\langle(x - \langle x\rangle)^2\rangle}
+\end{equation*}
+
+\begin{equation*}
+\Delta p = \sqrt{\langle(p - \langle p \rangle)^2\rangle}
+\end{equation*}
+
+\subsection{Gabor Transformation }
+Gabor had the insight the base function with minimum uncertainty in both time and frequency domains best captures temporal information during the frequency analysis.
+
+Gabor in his original study proposed an elementary functions in the complex form which occupies minimum uncertainty and it is a product of harmonic oscillator of any frequency and probability function. The area occupied by elementary function in the joint time frequency domain is equal to minimum uncertainty.
+
+\begin{equation}
+\psi(t) = \underbrace{e^{-\alpha ^2(t-t_0)^2}}_v\overbrace{e^{j2\pi f_0 t+\phi}}^w
+\end{equation}
+
+An arbitrary function $f(t)$ can be represented by series of elementary functions which are constructed by translation in both time and frequency domains. The function $f(t)$ is synthesized by the combination of GEF.\\
+
+\begin{equation}
+f(t) = \sum_{m,n\in Z} C_{m,n} \psi_{m,n}(t)
+\end{equation}
+where the $C_{m,n}$ are Gabor coefficients and the $\psi_{m,n}(t)$ are the bases functions called Gabor elementary functions. GEF shifted or translated by 'a' and generation of the translation of $\psi_{m,n}$ by 'na'is given by
+\begin{equation*}
+\psi_{n}(t) = \psi(t-na)\\
+\end{equation*}
+GEF shifted or translated and modulated (translation in the frequency domain is also called modulation) by the simple harmonic functions.
+\begin{equation*}
+\psi_{m,n}(t) = \psi(t-na) e^{j2\pi mbt}
+\end{equation*}\\
+The original Gabor paper suggested that $\psi$ is Gaussian. Later GEF was studied by using other functions for $\psi_{m,n}$ like a rectangle.  a,b are time and frequency shift parameters and a,b $>$  0. $\psi_{m,n}$ is obtained by shifting it by lattice na $\times$ mb in time-frequency plane.\\
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/Gabor3dSPNAS}
+\caption{Fig a is the Gabor Coefficient for HP Filter cycles of log(SP500) and Fig b is the Gabor Coefficient for HP Filter cycles of log(NASDAQ).$\Delta M = 8; \Delta N = 4; m = 16; n = 16; \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$ The program used to create the graph is mygabor.m and it is attached in the appendix.}
+\label{fig:Gabor3dSPNAS}
+\end{figure}
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/Gabor3dSPNAS50}
+\caption{Fig a is the Gabor Coefficient for HP Filter cycles log(SP500) and Fig b is the Gabor Coefficient for HP Filter cycles log(NASDAQ).$\Delta M = 8; \Delta N = 4; m = 50; n = 50; \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$ The program used to create the graph is mygabor.m and it is attached in the appendix.}
+\label{fig:Gabor3dSPNAS50}
+\end{figure}
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/GaborThreshold50}
+\caption{Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 50; n = 50; \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$. Threshold is calculated as $max(|c(m,n)|-min(|c(m,n)|))/2$. The program used to create the graph is mygabor.m and it is attached in the appendix.}
+\label{fig:GaborThreshold50}
+\end{figure}
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/GaborThreshold16}
+\caption{Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 16; n = 16; \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$. Threshold is calculated as $max(|c(m,n)|-min(|c(m,n)|))/2$. The program used to create the graph is mygabor.m and it is attached in the appendix.}
+\label{fig:GaborThreshold16}
+\end{figure}
+
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/GaborMasked50}
+\caption{Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 50; n = 50; \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$. Mask Operator $M$ created based on threshold. The program used to create the graph is mygabor.m and it is attached in the appendix.}
+\label{fig:GaborMasked50}
+\end{figure}
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/GaborMasked16}
+\caption{Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 16; n = 16; \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$. Mask Operator $M$ created based on threshold. The program used to create the graph is mygabor.m and it is attached in the appendix.}
+\label{fig:GaborMasked16}
+\end{figure}
+
+
+Gabor co-efficient $C_{m,n}$ and synthesis function $f(t)$ are bi-orthogonal functional sets.  \\
+\begin{equation}
+C_{m,n} = \sum_{m,n\in Z} \psi_{m,n}^*(t) f(t)
+\end{equation}
+$\psi_{m,n}^*$ is the complex conjugate of $\psi_{m,n}$.\\
+\\
+GEFs could be a set of Gaussian functions modulated by simple harmonics. GEF generated in 1D by combining Gaussian and simple harmonic functions are given in the figure 2. In the figure 2, Gaussian function remained the same for both GEF and only the sinusoidal functions changed between the two GEFs. Note the change in the frequency between the GEFs. A set of GEFs can be created by varying na and mb in equ(3).\\
+\begin{equation*}
+\psi_{m,n}(t) =  e^{-\frac{(t-\mu-na)^2}{2\sigma^2}} e^{j2\pi mbt}
+\end{equation*}
+
+If GEF $\psi$ and its Fourier transform (Frequency representation) $\Psi$ are localized at the origin and $g_{m,n}$ localized at (na,mb) in the joint time-frequency domain. Each GEF occupies a region in time-frequency plane and associated $C_{m,n}$ represents quantum of information.\\
+
+Let $\psi(t)$ be GEF and GEF in the frequency domain is given by Fourier transform \\
+\begin{equation*}
+\Psi(f) = \int_{-\infty}^{\infty}\psi(t) e^{-j2\pi ft}\, dt \\
+\end{equation*}
+
+
+GEF are set of Gaussian functions modulated by simple harmonics. These functions has a special property that adheres to Heisenberg's uncertainty principle. The product of the variance in time $\Delta t$ and variance in frequency $\Delta f$ is always greater than or equal to a certain quantity.
+\begin{equation}
+\Delta f \Delta t \geq \frac{1}{4\pi}
+\end{equation}
+The time variance or effective duration and frequency variance or effective frequency width can be calculated by the root mean square (RMS) deviation of the signal from the mean. The effective duration ($\Delta t$) and effective frequency width ($\Delta f$) are given by
+\begin{equation*}
+\Delta t = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(t)(\mu_t - t)^2\psi ^*(t)dt}}{\int_{-\infty}^{\infty}{\psi(t)\psi ^*(t)dt}}} ;
+\Delta f = \sqrt{\frac{\int_{-\infty}^{\infty}{\Psi(f)(\mu_f - f)^2\Psi ^*(f)df}}{\int_{-\infty}^{\infty}{\Psi(f)\Psi ^*(f)df}}}
+\end{equation*}
+
+where $\mu_t$ and $\mu_f$ are mean time and mean frequency and it is given by
+\begin{equation*}
+\mu_t = \frac{\int_{-\infty}^{\infty}{\psi(t)t\psi ^*(t)}}{\int_{-\infty}^{\infty}{\psi(t)\psi ^*(t)}} ;
+\mu_f = \frac{\int_{-\infty}^{\infty}{\Psi(f)f\Psi ^*(f)}}{\int_{-\infty}^{\infty}{\Psi(f)\Psi ^*(f)}}
+\end{equation*}
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/Gabor3dFiltSPNAS50}
+\caption{Fig a is the Filtered Gabor Coefficient for HP Filter cycles log(SP500) and Fig b is the Filtered Gabor Coefficient for HP Filter cycles log(NASDAQ).$\Delta M = 8; \Delta N = 4; m = 50; n = 50; \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$. The mask operator is created based on the threshold of a peak distribution. The program used to create the graph is myfiltgabor.m and it is attached in the appendix.}
+\label{fig:Gabor3dFiltSPNAS50}
+\end{figure}
+
+\begin{figure}[!ht]
+\includegraphics[scale=.15]{Images/Gabor3dFiltSPNAS16}
+\caption{Fig a is the Filtered Gabor Coefficient for HP Filter cycles log(SP500) and Fig b is the Filtered Gabor Coefficient for HP Filter cycles log(NASDAQ).$\Delta M = 8; \Delta N = 4; m = 16 ;n = 16 \sigma = \sqrt{\frac{\Delta M L}{\Delta N 2\pi}}$. The mask operator is created based on the threshold of a peak distribution. The program used to create the graph is myfiltgabor.m and it is attached in the appendix.}
+\label{fig:Gabor3dFiltSPNAS50}
+\end{figure}
+
+
+
+\begin{equation*}
+\Delta t\Delta f = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(t)(\mu_t - t)^2\psi ^*(t)dt}}{\int_{-\infty}^{\infty}{\psi(t)\psi ^*(t)dt}} \frac{\int_{-\infty}^{\infty}{\Psi(f)(\mu_f - f)^2\Psi ^*(f)df}}{\int_{-\infty}^{\infty}{\Psi(f)\Psi ^*(f)df}}} \geq \frac{1}{4\pi}
+\end{equation*}
+
+
+There are three possibilities for above equation is given below in table ~\ref{table:sampling} .
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|ccc|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \textbf{$\Delta t$  $\Delta f$} & \textbf Sampling & Remarks \\
+  \hline
+  = $\frac{1}{4\pi}$ & Critical   & Special functions called GEF \\
+  \hline
+   $>$ $\frac{1}{4\pi}$ & Over   & -- \\
+  \hline
+  $<$ $\frac{1}{4\pi}$ & Under   & -- \\
+  \hline
+\end{tabular}
+\caption{Possible values for $\Delta$t $\Delta$f and special case for Gabor function}
+\label{table:sampling}
+\end{table}
+
+Analogous to 1D uncertainty principle, there are two 2D uncertainty principles constraining the effective width ($\Delta x$) and the effective length ($\Delta y$) of a signal $f(x,y)$ and the effective width ($\Delta u$) and the effective length ($\Delta v$) of its 2D Fourier transform $F(u,v)$
+
+
+\begin{equation*}
+\Delta x\Delta u = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(x,y)(\mu_x - x)^2\psi ^*(x,y)dxdy}}{\int_{-\infty}^{\infty}{\psi(x,y)\psi ^*(x,y)dxdy}} \frac{\int_{-\infty}^{\infty}{\Psi(u,v)(\mu_u - u)^2\Psi ^*(u,v)dudv}}{\int_{-\infty}^{\infty}{\Psi(u,v)\Psi ^*(u,v)dudv}}} \geq \frac{1}{4\pi}
+\end{equation*}
+
+
+\begin{equation*}
+\Delta y\Delta v = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(x,y)(\mu_y - y)^2\psi ^*(x,y)dxdy}}{\int_{-\infty}^{\infty}{\psi(x,y)\psi ^*(x,y)dxdy}} \frac{\int_{-\infty}^{\infty}{\Psi(u,v)(\mu_v - v)^2\Psi ^*(u,v)dudv}}{\int_{-\infty}^{\infty}{\Psi(u,v)\Psi ^*(u,v)dudv}}} \geq \frac{1}{4\pi}
+\end{equation*}
+
+\begin{equation*}
+\Delta x\Delta u  \Delta y\Delta v    \geq \frac{1}{16\pi^2}
+\end{equation*}

@@ -1,0 +1,13 @@
+version 3.1-comments v2.
+
+To be revisited..
+
+Wigner distribution:
+
+1. explain W_f,f' function in equ. 3.5
+
+section: 3.2 
+explain analytical associate means.
+
+section 3.3
+give reference to equation 3.11

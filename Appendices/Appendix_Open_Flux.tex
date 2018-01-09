@@ -1,0 +1,132 @@
+\begin{lstlisting}[basicstyle=\tiny,language=R]
+hp_nasdaq <- function()
+{
+#Program used to create the HP filter for lambda 80 & 800 for NASDAQ index
+#Load the file and invoke hp_nasdaq()
+# Praba Siva;praba@umich.edu; @prabasiva
+# R source
+library(mFilter)
+opar <- par(no.readonly=TRUE)
+setwd("/Users/sivasp1/Documents/2016/Personal/Praba/MATH599/program")
+dat <- read.csv(file="nasdaq_ready.csv",head=TRUE,sep=",")
+year=dat[,1]+1/12*dat[,2]
+dat=dat[,3]
+ldat=log(dat)
+dat=ldat
+dat.hp1 <- hpfilter(dat, freq=80,type="frequency",drift=FALSE)
+dat.hp2 <- hpfilter(dat, freq=800,type="frequency",drift=FALSE)
+par(mfrow=c(3,1),mar=c(3,3,2,1),cex=.8)
+plot(year,dat,  xlab="Year",ylab="log s(t)",ylim=range(dat),
+     main="NASDAQ Index ",
+     col=2, type='l')
+plot(year,dat.hp1$trend,  xlab='Year', ylim=range(dat.hp1$trend),
+     main="HP filter of NASDAQ Index: Trend,Lambda=80 ",
+     col=4, type='l')
+plot(year,dat.hp1$cycle,  ylim=range(dat.hp1$cycle), xlab="Year", 
+     main="HP filter of NASDAQ Index: Cycle,Lambda=80 ",
+     col=3, type='l')
+par(mfrow=c(3,1),mar=c(3,3,2,1),cex=.8)
+plot(year,dat,  ylim=range(dat),
+     main="NASDAQ Index ",
+     col=2, ylab="log s(t)",type='l')
+plot(year,dat.hp2$trend,  ylim=range(dat.hp1$trend),
+     main="HP filter of NASDAQ Index: Trend,Lambda=800 ",
+     col=4, xlab='Year', ylab="log(s(t))",type='l')
+plot(year,dat.hp1$cycle,  ylim=range(dat.hp2$cycle),
+     main="HP filter of NASDAQ Index: Cycle,Lambda=800 ",
+     col=3, ylab="",type='l')
+par(opar)
+}
+
+hpfilt <- function()
+{
+#Program used to create the HP filter for lambda 80 & 800 for S&P 500 index
+#Load the file and invoke hpfilt()
+# Praba Siva;praba@umich.edu; @prabasiva
+# R source
+library(mFilter)
+opar <- par(no.readonly=TRUE)
+setwd("/Users/sivasp1/Documents/2016/Personal/Praba/MATH599/program")
+fspcom=read.table('fspcom.dat')
+dat = fspcom[,5]
+year=fspcom[,2]+1/12*fspcom[,3]
+ldat=log(dat)
+dat=ldat
+dat.hp1 <- hpfilter(dat, freq=80,type="frequency",drift=FALSE)
+dat.hp2 <- hpfilter(dat, freq=800,type="frequency",drift=FALSE)
+par(mfrow=c(3,1),mar=c(3,3,2,1),cex=.8)
+plot(year,dat,  ylim=range(dat),
+     main="S&P 500 Index ",
+     col=2, ylab="",type='l')
+plot(year,dat.hp1$trend,  ylim=range(dat.hp1$trend),
+     main="HP filter of S&P 500 Index: Trend,Lambda=80 ",
+     col=4, xlab='Year', ylab="log(s(t))",type='l')
+plot(year,dat.hp1$cycle,  ylim=range(dat.hp1$cycle),
+     main="HP filter of S&P 500 Index: Cycle,Lambda=80 ",
+     col=3, ylab="",type='l')
+par(mfrow=c(3,1),mar=c(3,3,2,1),cex=.8)
+plot(year,dat,  ylim=range(dat),
+     main="S&P 500 Index ",
+     col=2, ylab="",type='l')
+plot(year,dat.hp2$trend,  ylim=range(dat.hp1$trend),
+     main="HP filter of S&P 500 Index: Trend,Lambda=800 ",
+     col=4, xlab='Year', ylab="log(s(t))",type='l')
+plot(year,dat.hp1$cycle,  ylim=range(dat.hp2$cycle),
+     main="HP filter of S&P 500 Index: Cycle,Lambda=800 ",
+     col=3, ylab="",type='l')
+par(opar)
+
+}
+fdplot <-function()
+{
+  #Program used to create the Difference stationary for NASDAQ & SP500 indexes
+  # Praba Siva
+  # praba@umich.edu
+  # @prabasiva
+  setwd("/Users/sivasp1/Documents/2016/Personal/Praba/MATH599/program")
+  fspcom=read.table('fspcom.dat')
+  dat = log(fspcom[,5])
+  year=fspcom[,2]+1/12*fspcom[,3]
+  t1=dat[1:length(dat)-1]
+  t2=dat[2:length(dat)]
+  plot(year[1:length(year)-1],t2-t1,type='l',main="Difference stationary of first Differencing of log(x(t))\nx(t) = S&P 500", xlab="Year",ylab="FD",col=2,ylim=c(-.2,.2)) 
+  
+  setwd("/Users/sivasp1/Documents/2016/Personal/Praba/MATH599/program")
+  dat <- read.csv(file="nasdaq_ready.csv",head=TRUE,sep=",")
+  year=dat[,1]+1/12*dat[,2]
+  dat=log(dat[,3])
+  t1=dat[1:length(dat)-1]
+  t2=dat[2:length(dat)]
+  plot(year[1:length(year)-1],t2-t1,type='l',main="Difference stationary of first Differencing of log(x(t))\nx(t) = NASDAQ", xlab="Year",ylab="FD",col=3,ylim=c(-.2,.2)) 
+  
+}
+
+llt<-function()
+{
+  #Program used to Log linear trend and cycles for SP500 & NASDAQ index
+  # Praba Siva
+  # praba@umich.edu
+  # @prabasiva
+setwd("/Users/sivasp1/Documents/2016/Personal/Praba/MATH599/program")
+fspcom=read.table('fspcom.dat')
+year=fspcom[,2]
+tsfspcom=ts(log(fspcom[,5]),start=year[1],end=c(year[length(year)],12),frequency=12)
+loglinear=stl(log(tsfspcom),s.window=5)
+plot(loglinear,main="Log linear plot of S&P 500")
+
+setwd("/Users/sivasp1/Documents/2016/Personal/Praba/MATH599/program")
+dat <- read.csv(file="nasdaq_ready.csv",head=TRUE,sep=",")
+year=dat[,1]
+dat=dat[,3]
+tsnasdaq=ts(dat,start=year[1],end=c(year[length(year)]-1,12),frequency=12)
+nloglinear=stl(log(tsnasdaq),s.window=5)
+plot(nloglinear,main="Log linear plot of NASDAQ")
+}
+
+
+
+\end{lstlisting}
+\begin{lstlisting}[basicstyle=\tiny,language=MATLAB]
+
+
+\end{lstlisting}

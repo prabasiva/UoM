@@ -1,0 +1,32 @@
+\section{Dimensionality}
+
+The main drawback of the Wigner Ville distribution is cross term interference and the cross term oscillates and is localized. 
+
+Time Frequency Distribution Series (TFDS) was introduced by Chen and Qian \cite{pchen} as the decomposition of the Wigner Ville distribution via the orthogonal like Gabor expansion. Let me walk through each step to attain the time frequency distribution series. 
+
+Let $g(t)$ be a normalized Gaussian function which is defined as follows. 
+
+\begin{equation}
+WVD_g(t,\omega) = 2 e^{-(\frac{t^2}{\sigma^2}+\sigma^2\omega^2)}
+\end{equation}
+
+\subsection{Correlation Dimension}
+The correlation dimension provides a tool to quantify self-similarity. A larger correlation dimension corresponds to a larger degree of complexity and less self-similarity. The most frequently used procedure to estimate the correlation dimension was introduced by Grassberger and Procaccia (1983). They defined the correlation sum for a collection of points $X_i$ $(i=1,2,3,..N)$ in some phase space to be the fraction of all possible pairs of points which are closer than a given distance $\epsilon$ in a particular norm:
+
+\begin{equation} \label{cd:1}
+C(m,\epsilon) = \frac{2}{(N-m)(N-m-1)} \sum_{i=m}^{N}\sum_{j=i+1}^{N} \Theta (\epsilon - \lVert X_i - X_j \rVert )
+\end{equation}
+
+Where $\Theta$ is Heaviside step function, $\Theta(x) = 0$ if $x \le 0 $ and $\Theta(x) = 1$ for $x>0$.
+Thus equation \ref{cd:1} counts the pairs $(X_i,X_j)$ whose distance is smaller than $\epsilon$.  When ${N\to\infty}$, for small values of $\epsilon$, C follows a power law;
+
+\begin{equation} \label{cd:2}
+C(\epsilon) \propto \epsilon^{D_c}
+\end{equation}
+
+Where $D_c$ is correlation dimension. Therefore, $D_c$ is defined as 
+\begin{equation} \label{cd:3}
+D_c = \lim_{\epsilon\to 0} \lim_{N\to\infty} \frac{\partial ln C(\epsilon)}{\partial ln(\epsilon)}
+\end{equation}
+
+Correlation dimension is estimated by computing the slope of the straight line by using least sqare fit in a plot of $ln C(\epsilon)$ vs $ln(\epsilon)$. 

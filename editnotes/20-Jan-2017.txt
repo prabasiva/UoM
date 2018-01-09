@@ -1,0 +1,51 @@
+14-Jan
+version 3.1-comments v2.
+
+To be revisited..
+
+Wigner distribution:
+
+1. explain W_f,f' function in equ. 3.5
+
+section: 3.2 
+explain analytical associate means.
+
+section 3.3
+give reference to equation 3.11
+
+21-Jan
+
+version 3.1-comments v2.
+investigate why the countor map is ligher on both ends..
+
+chap 4
+start from 4.9
+
+section 2.1
+reword N sub-interval.
+
+polynomial degree and moments N vs N+1
+
+Add a comment for changing the limit to o to tau
+
+2.3 
+add signficance of omega = 2pif 
+
+Introduce shifting theorem after 2.10
+
+spnasdaqfourier.m - frequency scale.
+
+figure 2.5 above section 2.3 - add more details on the graph
+
+figure 2.6
+figure 2.7
+
+role of psi in gabor function  equation (2.21)
+
+figure 2.8 ; define deltan, deltam  - use it for  a simple function.
+
+figure 2.9 - verify time and frequency labels 
+
+add information about MASK operator
+
+

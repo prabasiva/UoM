@@ -1,0 +1,83 @@
+\noindent \relax $\@@underline {\hbox {\bf Figure}}\mathsurround \z@ $\relax \hfill \rm \newline 
+\hbox { }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \small \normalsize \rm Data used in the study. a) Actual SP500 and log(SP500) b) Actual NASDAQ and log(NASDAQ). The matlab program drawDataGraph.m used to generate the graph is given in Appendix A}}{2}
+\hbox { }
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \small \normalsize \rm Difference stationary of natural log a) SP500 b) NASDAQ.The difference stationary [ sp500(t2)-sp500(t1) and nasdaq(t2)-nasdaq(t1) ] provides insights on the variation of signal. The R program fdplot.R used to generate the graph is given in Appendix A}}{6}
+\hbox { }
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \small \normalsize \rm STL of Log SP500. a) The natural log of the SP500 b) The cyclical (or called seasonal) pattern c) The business trend of log SP500 d) Noise (remainder) data. The graph was created using the R program named as llt.R and it is attached in the Appendix A.}}{8}
+\hbox { }
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \small \normalsize \rm STL of NASDAQ. a) The natural log of the NASDAQ b) The cyclical (or called seasonal) pattern c) The business trend of log NASDAQ d) Noise (remainder) data. The graph was created using the R program named as llt.R and it is attached in the Appendix A}}{9}
+\hbox { }
+\contentsline {figure}{\numberline {1.5}{\ignorespaces \small \normalsize \rm Log Linear Model when $\beta _1 < 0$ and when $\beta _1 > 0$. The graph was generated using loglinear.R, and it is attached in the Appendices A}}{10}
+\hbox { }
+\contentsline {figure}{\numberline {1.6}{\ignorespaces \small \normalsize \rm Log linear of trend and cycle for log SP500 a) Log SP500 and trend. The trend is calculated based on estimation of slope and y-intersect b)It is cycle of log-linear of SP500 and it is the variance of original log(sp500) and estimated trend. AutoCorrelation.R is the R program used to created the graph and it is attached in the Appendix A}}{11}
+\hbox { }
+\contentsline {figure}{\numberline {1.7}{\ignorespaces \small \normalsize \rm Log linear of trend and cycle for log NASDAQ a) Log NASDAQ and trend. The trend is calculated based on estimation of slope and y-intersect b)It is cycle of log-linear of SP500 and it is the difference between the original log(NASDAQ) and estimated trend. AutoCorrelation.R is the R program used to created the graph and it is attached in the Appendix A}}{12}
+\hbox { }
+\contentsline {figure}{\numberline {1.8}{\ignorespaces \small \normalsize \rm Auto correlation for a) Sin wave b) Polynomial equation c) Sin wave with random noise. AutoCorrelation.R is the R program used to created the graph and it is attached in the Appendix A}}{13}
+\hbox { }
+\contentsline {figure}{\numberline {1.9}{\ignorespaces \small \normalsize \rm Auto correlation for log SP500 a) Log SP500 b)AutoCorrelation of HP cycle c) Autocorrelation of First Differencing d) Autocorrelation of log-linear cycles of SP500. AutoCorrelation.R is the R program used to created the graph and it is attached in the Appendix A}}{14}
+\hbox { }
+\contentsline {figure}{\numberline {1.10}{\ignorespaces \small \normalsize \rm Auto correlation for log NASDAQ a) Log NASDAQ b)AutoCorrelation of HP cycle c) Autocorrelation of First Differencing d) Autocorrelation of log-linear cycles of NASDAQ. AutoCorrelation.R is the R program used to created the graph and it is attached in the Appendix A}}{15}
+\hbox { }
+\contentsline {figure}{\numberline {1.11}{\ignorespaces \small \normalsize \rm The trend and cycle separation from SP500 using HP filter with $\lambda $ = 80. a) Natural Log of SP500 index b) Trend extracted from Log of SP500 index using HP filter c) Cyclical pattern extracted from SP500 index using HP filter}}{19}
+\hbox { }
+\contentsline {figure}{\numberline {1.12}{\ignorespaces \small \normalsize \rm HP filter with different value for $\lambda $ a) NASDAQ b) S\&P 500}}{20}
+\hbox { }
+\contentsline {figure}{\numberline {1.13}{\ignorespaces \small \normalsize \rm The trend and cycle separation from SP500 using HP filter with $\lambda $ = 800. a) Natural Log of SP500 index b) Trend extracted from Log of SP500 index using HP filter c) Cyclical pattern extracted from SP500 index using HP filter }}{21}
+\hbox { }
+\contentsline {figure}{\numberline {1.14}{\ignorespaces \small \normalsize \rm The trend and cycle separation from NASDAQ using HP filter with $\lambda $ = 80. a) Natural Log of NASDAQ index b) Trend extracted from Log of NASDAQ index using HP filter c) Cyclical pattern extracted from NASDAQ index using HP filter }}{22}
+\hbox { }
+\contentsline {figure}{\numberline {1.15}{\ignorespaces \small \normalsize \rm The trend and cycle separation from NASDAQ using HP filter with $\lambda $ = 800. a) Natural Log of NASDAQ index b) Trend extracted from Log of NASDAQ index using HP filter c) Cyclical pattern extracted from NASDAQ index using HP filter }}{23}
+\hbox { }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \small \normalsize \rm Fourier Transforms for discretized time signal sine waves with three different frequencies and respective discrete Fourier transforms are given above. The sampling period used is 0.001 and total length of signal (L) is 200. The graphs were created using Matlab code DrawSinFourierGraph.m and it is attached in the Appendix B}}{27}
+\hbox { }
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \small \normalsize \rm Fourier transform for a) Zero mean signal with random noise, b) Zero mean signal $f(t) = 0.7sin(2\pi 50t)+sin(2\pi 120t)$, c) Gaussian - Frequency are shifted (using fftshift function in matlab) in the frequency domain to show that the Fourier transform of Gaussian looks like Gaussian in the frequency domain, d) HP Filter of Log NASDAQ, e) HP Filter of Log S\&P 500. The program used to generate the graph is SPNASDAQFourier.m and stored in Appendix }}{32}
+\hbox { }
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \small \normalsize \rm Discrete Fourier Transform \& Inverse DFT real and imaginary part. The above surface created using the matrix F. The graph is created using Matlab program named mydft.m attached in the Appendix}}{33}
+\hbox { }
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \small \normalsize \rm Window function (window length =25) for a) Gaussian b) Hamming. The graph was created using Matlab program ghamwin.m and attached in Appendix B }}{36}
+\hbox { }
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \small \normalsize \rm In the first column, the signal $f(t)$ as defined in 2.25\hbox {} b) Fourier Transform of $f(t)$ c) Short Time Fourier Transform of $f(t)$ d) STFT using Gaussian window e) STFT using Hamming window. Second column is for SP500 and third column is for NASDAQ indexes. The graph was created using Matlab program spectrumAnalysis5.m and attached in Appendix B }}{37}
+\hbox { }
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \small \normalsize \rm Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 50; n = 100; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. Threshold is calculated as $max(|c(m,n)|-min(|c(m,n)|))/2$. The program used to create the graph is mygaborfilt.m and it is attached in the appendix.}}{40}
+\hbox { }
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \small \normalsize \rm Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 16; n = 32; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. Threshold is calculated as $max(|c(m,n)|-min(|c(m,n)|))/2$. The program used to create the graph is mygabor.m and it is attached in the appendix.}}{41}
+\hbox { }
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \small \normalsize \rm Fig a is the Filtered Gabor Coefficient for HP Filter cycles log(SP500) and Fig b is the Filtered Gabor Coefficient for HP Filter cycles log(NASDAQ).$\Delta M = 8; \Delta N = 4; m = 50; n = 100; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. The mask operator is created based on the threshold of a peak distribution. The program used to create the graph is myfiltgabor.m and it is attached in the appendix.}}{43}
+\hbox { }
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \small \normalsize \rm Fig a is the Filtered Gabor Coefficient for HP Filter cycles log(SP500) and Fig b is the Filtered Gabor Coefficient for HP Filter cycles log(NASDAQ).$\Delta M = 8; \Delta N = 4; m = 16 ;n = 32 ; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. The mask operator is created based on the threshold of a peak distribution. The program used to create the graph is myfiltgabor.m and it is attached in the appendix.}}{44}
+\hbox { }
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \small \normalsize \rm Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 16; n = 32; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. Threshold is calculated as $max(|c(m,n)|-min(|c(m,n)|))/2$. Mask operator used to eliminate values below threshold. The program used to create the graph is mygaborfilt.m and it is attached in the appendix.}}{45}
+\hbox { }
+\contentsline {figure}{\numberline {2.11}{\ignorespaces \small \normalsize \rm Fig a is the time section of Gabor distribution of HP Filter cycles log(SP500) and Fig b is the time section of Gabor distribution of for HP Filter cycles log(NASDAQ). $\Delta M = 8; \Delta N = 4; m = 50; n = 100; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. Threshold is calculated as $max(|c(m,n)|-min(|c(m,n)|))/2$. Mask operator used to eliminate values below threshold. The program used to create the graph is mygaborfilt.m and it is attached in the appendix.}}{46}
+\hbox { }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \small \normalsize \rm Wigner Distribution transform for log(s); where s denotes the sp500. Top row is the log(s) and its Wigner Distribution transform presentation in the contour and three dimensional mesh. Bottom row is the HP filter cycle of log(s) with $\lambda = 14400$ and its Wigner Distribution transform. The graph was created using Matlab code mywvd.m and it is attached in the Appendix B}}{51}
+\hbox { }
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \small \normalsize \rm Wigner Distribution transform for log(s); where s denotes the NASDAQ index. Top row is the log(s), Wigner Distribution transform presentation in the contour and three dimensional mesh. Bottom row is the HP filter cycle of log(s) with $\lambda = 14400$ and its Wigner Distribution transform. The graph was created using Matlab code mywvd.m and it is attached in the Appendix B}}{52}
+\hbox { }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \small \normalsize \rm Fig in the left hand side represents the Gaussian function $g(t)$ as defined above for various $\sigma $ values. Fig in the right land side represents the Wigner Ville Distribution $WVD_g$ as defined above. The graph is created using the mywvdgauss.m program attached in the Appendix. $WVD$ values are created by using the HOSA (Higher Order Spectral Analysis) Matlab toolbox. }}{54}
+\hbox { }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \small \normalsize \rm Correlation Dimension for NASDAQ. The graph was created by using drawCorrDim.m and it is attached in the Appendix}}{63}
+\hbox { }
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \small \normalsize \rm Correlation Dimension for NASDAQ. The graph was created by using drawCorrDim.m and it is attached in the Appendix}}{64}
+\hbox { }
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \small \normalsize \rm Correlation Dimension for NASDAQ. The graph was created by using drawCorrDim.m and it is attached in the Appendix}}{65}
+\hbox { }
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \small \normalsize \rm Correlation Dimension for NASDAQ. The graph was created by using drawCorrDim.m and it is attached in the Appendix}}{66}
+\hbox { }
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \small \normalsize \rm Phase Portrait for log(NASDAQ) unfiltered series $T= 60$. The graph was created by using Attractor.R (R program) and it is attached in the Appendix A}}{67}
+\hbox { }
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \small \normalsize \rm Phase Portrait for log(NASDAQ) unfiltered series $T= 60$. A pattern of strange attractor can be observed in the graph. The threshold value that depends on $H$ $(H = 0.5)$ has less significant impact to the pattern emergence whereas the size of $m$, $n$ in $C(m,n)$, the Gabor Coefficient has significant impact to the pattern of strange attractor. The $16 x 16$ Gabor Coefficient was used. The graph was created by using myAttractor.m (Matlab program) and it is attached in the Appendix B.}}{68}
+\hbox { }
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \small \normalsize \rm Phase Portrait for log(SP500) unfiltered series $T= 60$. The graph was created by using Attractor.R (R program) and it is attached in the Appendix A.}}{69}
+\hbox { }
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \small \normalsize \rm Phase Portrait for log(SP500) unfiltered series $T= 60$. A pattern of strange attractor can be observed in the graph. The threshold value that depends on $H$ $(H = 0.5)$ has less significant impact to the pattern emergence whereas the size of $m$, $n$ in $C(m,n)$, the Gabor Coefficient has significant impact to the pattern of strange attractor. The $16 x 16$ Gabor Coefficient was used. The graph was created by using myAttractor.m (Matlab program) and it is attached in the Appendix B.}}{70}
+\hbox { }
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \small \normalsize \rm Fig a) The original and reconstructed time series of log(SP500) HP Cycles. Gabor Coefficients are created using the parameters - .$\Delta M = 8; \Delta N = 4; m = 16; n = 16; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. Fig b) Autocorelations of the original and reconstructed time series of log(SP500) HP cycle. The program used to create the graph is myreconstfromgabor.m and it is attached in the appendix B.}}{71}
+\hbox { }
+\contentsline {figure}{\numberline {5.10}{\ignorespaces \small \normalsize \rm Fig a) The original and reconstructed time series of log(NASDAQ) HP Cycles. Gabor Coefficients are created using the parameters - .$\Delta M = 8; \Delta N = 4; m = 16; n = 16; \sigma = \sqrt {\frac {\Delta M L}{\Delta N 2\pi }}$. Fig b) Autocorelations of the original and reconstructed time series of log(NASDAQ) HP cycle. The program used to create the graph is myreconstfromgabor.m and it is attached in the appendix B.}}{72}
+\hbox { }
+\contentsline {figure}{\numberline {5.11}{\ignorespaces \small \normalsize \rm Fig a) SP500 FD Series. T = 40. The pattern demonstrates the existence of dominant of high frequency noise. Fig b) AR(2) for the FD Series of SP500. T=5. The program used to create the graph is myFDFilter.m and it is attached in the appendix B.}}{73}
+\hbox { }
+\contentsline {figure}{\numberline {5.12}{\ignorespaces \small \normalsize \rm Fig a) NASDAQ FD Series. T = 40. The pattern demonstrates the existence of dominant of high frequency noise. Fig b) AR(2) for the FD Series of NASDAQ. T=5. The program used to create the graph is myFDFilter.m and it is attached in the appendix B.}}{74}

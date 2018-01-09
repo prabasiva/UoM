@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{gabor}
+D.~Gabor.
+\newblock {Theory of Communication}.
+\newblock {\em J. IEE}, 93(26):429--457, November 1946.
+
+\bibitem{pchen}
+{Ping Chen}.
+\newblock {A Random-Walk or Color-Chaos on the Stock Market? - Time-Frequency
+  Analysis of S\&P Indexes}.
+\newblock {\em Studies in Nonlinear Dynamics \& Econometrics}, 1(A9):87--103,
+  July 1996.
+
+\bibitem{lambdaforhp}
+Morten~O. {Ravn} and Harald {Uhlig}.
+\newblock {On Adjusting the Hodrick-Prescott filter for the frequency of
+  observation}.
+\newblock {\em Notes}, 1996.
+
+\end{thebibliography}

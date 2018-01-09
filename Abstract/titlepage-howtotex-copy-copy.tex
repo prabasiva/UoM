@@ -1,0 +1,501 @@
+% ------------------------------------------------------------------------------
+% LaTeX Template: Titlepage
+% This is a title page template which be used for both articles and reports.
+%
+% Copyright: http://www.howtotex.com/
+% Date: April 2011
+% ------------------------------------------------------------------------------
+
+% -------------------------------------------------------------------------------
+% Preamble
+% -------------------------------------------------------------------------------
+\documentclass[paper=a4, fontsize=11pt,twoside]{scrartcl}		% KOMA article
+
+\usepackage[a4paper,pdftex]{geometry}										% A4paper margins
+\setlength{\oddsidemargin}{5mm}												% Remove 'twosided' indentation
+\setlength{\evensidemargin}{5mm}
+
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+% ------------------------------------------------------------------------------
+% Definitions (do not change this)
+% ------------------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\centering \large \@author}}				
+\makeatother							
+
+% ------------------------------------------------------------------------------
+% Metadata (Change this)
+% ------------------------------------------------------------------------------
+\title{	\normalsize \textsc{Title page subtitle} 	% Subtitle of the document
+		 	\\[2.0cm]													% 2cm spacing
+			\HRule{0.5pt} \\										% Upper rule
+			\LARGE \textbf{\uppercase{This is a rather long but nice looking title example}}	% Title
+			\HRule{2pt} \\ [0.5cm]								% Lower rule + 0.5cm spacing
+			\normalsize \today									% Todays date
+		}
+
+\author{
+		John F. Doe\\	
+		Imaginary University of Examples\\	
+		Made up department of Randomness\\
+        \texttt{your@email.com} \\
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\title{ STUDY OF COLOR CHAOS MODEL & TIME-FREQUENCY ANALYSIS OF S&P , NASDAQ INDEXES}
+
+%\author{PRABAHARAN SIVASHANMUMAM}
+
+
+
+
+
+%\pagebreak
+%%\begin{document}
+
+\section{Introduction}
+Time frequency model and random walk model are two polar models in linear systems. Color chaos is a model that is in between these models which generates irregular oscillation with a narrow frequency band. The deterministic component from noisy data can be recovered by time variant filter in Gabor space. The characteristic frequency is calculated by Wigner decomposed distribution series. It is found that 7\% of the detrended by HP filter can be explained by the deterministic color chaos. 	
+The existence of persistent chaotic cycle reveals a new perspective of market resilience and new sources of economic uncertainties. The nonlinear pattern in the stock market may not be wiped out by the market competition under non-equilibrium situations with trend evolution and frequency shifts. 
+
+\subsection{Time series forecasting using stochastic models}
+In general models for time series data can have many forms and represent different stochastic processes. There are widely used linear time series models are Auto Regressive (AR) and Moving Average (MA) models. Combining these two, the Autoregressive and Moving average (ARMA) and Autoregressive Integrated Moving Average (ARIMA) are also used. Autoregressive Fractionally Integrated Moving Average (ARFIMA) model generalized ARMA and ARIMA models. For seasonal time series forecasting, a variation of ARIMA, the Seasonal Autoregressive Integrated Moving Average (SARIMA)model is used. 
+
+Linear models have drawn much attention due to their relative simplicity in understanding and implementation. Many practical time series show non-linear patterns, for example, the non-linear models are appropriate for predicting the volatility changes in economic and financial time series. Considering these facts, various non linear models have been proposed over the years. Few widely used non-linear models are Autoregressive Conditional Heteroskedasticity (ARCH) model, its variations like Generalized ARCH (GARCH), Exponential GARCH (EGARCH), the Threshold Autoregressive (TAR), the non-linear Autoregressive (NAR), the non-linear Moving average (NMA) model ad etc. 
+
+The Autoregressive Moving Average (ARMA) models:
+An ARMA(p,q) model is a combination of AR($p$) and MA$(q)$ models and is suitable for univariate time series modeling. In an AR(p) model the future value of a variable is assumed to be a linear combination of p past observations and a random error together with a constant term. 
+
+Mathematically the AR(p) model can be expressed as:
+\begin{equation}
+y_i = \sum{y}
+\end{equation}
+
+
+\section{Statement of the problem}
+
+
+\subsection{Methodology}
+
+
+\subsection{Classifier}
+
+
+
+
+
+
+\section{Signal Processing}
+An arbitrary signal given by a function $f(t)$ can be represented by many forms for better understanding of the signal. The representation of the signal $f(t)$ in a different form depends on type of application the user is interested in. In few cases, the original signals are perfectly fine as is for a given application.
+
+In signal processing there are two major field of study.
+\begin{itemize}
+  \item  {Signal synthesis - Construction of a signal}
+  \item  {Signal analysis - Study of a signal}
+\end{itemize}
+
+In signal synthesis, one way of representing the signal $f(t)$ is, $f(t)$ can be broken into smaller equal pieces. Let the interval of the piece is denoted by $\tau$. The piece of the signal in the interval $\tau$ can be further sub divided into N smaller chunks. Each chunk represents a datum. There are infinite ways to represent $f(t)$ in the internal $\tau$. Fit the function in the interval $\tau$ as a curve. The fitted curve is very close to the original function. The curve is given by a polynomial function of degree N. The polynomial coefficients of the curve is the data represents the curve in the interval.  The polynomial can be specified such a way that moments ${M_n}$ equal to as follows and it is equivalent of the polynomial coefficient
+\begin{equation*}
+M_0 = \int_{0}^{\tau}{f(t)dt};M_1 = \int_{0}^{\tau}{tf(t)dt};M_2 = \int_{0}^{\tau}{t^2f(t)dt};..M_{N-1} = \int_{0}^{\tau}t^{N-1}{f(t)dt}
+\end{equation*}
+The function $f(t)$ in the interval $\tau$ is expanded in the terms of set of powers of time functions.
+If the purpose is to transmit the signal,then the moments (equivalent of polynomial coefficients) can be transmitted and the signal can be reconstructed at the other end.
+
+Instead of representing the function $f(t)$ in the interval $\tau$ in terms of powers of time functions, it can be represented by orthogonal functions ${\phi}_k(t)$ in the interval 0 $<$ t $<$ $\tau$ and it is equivalent of fitting the expansion. How close the fit will be depends on the set of orthogonal functions selected and type of applications.
+
+\section{Fourier Transformation}
+If the orthogonal function set is simple harmonic functions sine and cosine in the interval extending from ${-\infty}$ to ${\infty}$, then the given signal is presented in the frequency domain and it is called Fourier transformation.
+
+\begin{equation}
+F(s) = \int_{-\infty}^{\infty}{f(t)e^{-j2\pi ts}dt};
+f(t) = \int_{-\infty}^{\infty}{F(s)e^{j2\pi ts}ds}
+\end{equation}
+Fourier transformation is a tool to translate a signal from time domain to frequency domain and vice versa. In fact, it is an apt tool to analyze a signal in the frequency domain given the signal does not evolve over the time. In most of the practical signals like seismic, tsunami, speech, video  signals and etc evolve over the time and if the study required to study the evolution of the signals, then application of Fourier transformation in those signals is very challenging. Over the time, there are various ideas proposed to over come this challenge.
+\subsection{Short Time Fourier Transformation}
+ One of the idea is to chop the signal into smaller pieces and perform Fourier transformation for each piece. This technique is called short time Fourier Transform. The smaller pieces in the signal can be chosen by a window function $w(t-\tau)$
+ \begin{equation}
+F(s) = \int_{-\infty}^{\infty}{f(t)w(t-\tau)e^{-j2\pi ts}dt};
+\end{equation}
+Simultaneous analysis of signals in both time and frequency domains provides better understanding of the signal and short time Fourier transform laid the foundation for the joint time-frequency analysis.
+\section{Introduction}
+Gabor transformation or expansion in signal synthesis uses the Gabor elementary function (GEF) as the base function (equivalent of simple harmonic function in the Fourier transform) and idea was influenced by Heisenberg's uncertainty principle.  \\
+\subsection{Heisenberg's uncertainty principle}
+In quantum mechanics, simultaneously, both position of a particle and momentum of the particle can not be measured preciously. Let $x$ be position and $p$ be momentum of the particle. Standard deviation of $x$ and $p$ are given by $\Delta x$ $\Delta p$ respectively. Uncertainty principle states that product of variance of position and momentum is greater than or equal to $\frac{\hbar}{2}$
+\begin{equation*}
+\Delta x\Delta p \geq \frac{\hbar}{2}
+\end{equation*}
+\begin{equation*}
+\Delta x = \sqrt{\langle(x - \langle x\rangle)^2\rangle};
+\Delta p = \sqrt{\langle(p - \langle p \rangle)^2\rangle}
+\end{equation*}
+\subsection{Gabor Transformation }
+Gabor had the insight that base function with minimum uncertainty in both time and frequency domains captures temporal information during the frequency analysis.
+An arbitrary function, $f(t)$ can be represented by series of elementary functions which are constructed by translation in both time and frequency domains. The function $f(t)$ is synthesized by the combination of GEF.\\
+
+\begin{equation}
+f(t) = \sum_{n,m\in Z} C_{n,m} g_{n,m}(t)
+\end{equation}
+where $C_{n,m}$ is Gabor co-efficient and $g_{n,m}(t)$ is the bases function called Gabor elementary function. GEF shifted or translated by 'a' and generation of the translation of $g_{n,m}$ by 'na'is given by
+\begin{equation*}
+g_{n,m}(t) = g_{n,m}(t-na)\\
+\end{equation*}
+GEF shifted or translated and modulated (translation in the frequency domain is also called modulation) by the simple harmonic functions.
+\begin{equation*}
+g_{n,m}(t) = g_{n,m}(t-na) e^{j2\pi mbt}
+\end{equation*}\\
+The original Gabor paper suggested that $g_{n,m}$ is Gaussian. Later GEF was studied by using other functions for $g_{n,m}$ like rectangle.  a,b are time frequency shift parameters and a,b $>$  0. $g_{n,m}$ is obtained by shifting it by lattice na $\times$ mb in time-frequency plane.\\
+
+Gabor co-efficient $C_{n,m}$ and synthesis function $f(t)$ are bi-orthogonal functional sets.  \\
+\begin{equation}
+C_{n,m} = \sum_{n,m\in Z} g_{n,m}^*(t) f(t)
+\end{equation}
+$g_{n,m}^*$ is the complex conjugate of $g_{n,m}$.\\
+\\
+GEFs could be a set of Gaussian functions modulated by simple harmonics. GEF generated in 1D by combining Gaussian and simple harmonic functions are given in the figure 2. In the figure 2, Gaussian function remained the same for both GEF and only the sinusoidal functions changed between the two GEFs. Note the change in the frequency between the GEFs. A set of GEFs can be created by varying na and mb in equ(3).\\
+\begin{equation*}
+g_{n,m}(t) =  e^{-\frac{(t-\mu-na)^2}{2\sigma^2}} e^{j2\pi mbt}
+\end{equation*}
+
+If GEF (g) and its Fourier transform (Frequency representation) $\hat{\mathbf{g}}$ are localized at the origin and $g_{n,m}$ localized at (na,mb) in the joint time-frequency domain. Each GEF occupies a region in time-frequency plane and associated $C_{n,m}$ represents quantum of information.\\
+
+Let $\psi(t)$ be GEF and GEF in the frequency domain is given by Fourier transform \\
+\begin{equation*}
+\Psi(f) = \int_{-\infty}^{\infty}\psi(t) e^{-j2\pi ft}\, dt \\
+\end{equation*}
+
+
+GEF are set of Gaussian functions modulated by simple harmonics. These functions has a special property that adheres to Heisenberg's uncertainty principle. The product of the variance in time $\Delta t$ and variance in frequency $\Delta f$ is always greater than or equal to a certain quantity.
+\begin{equation}
+\Delta f \Delta t \geq \frac{1}{4\pi}
+\end{equation}
+The time variance or effective duration and frequency variance or effective frequency width can be calculated by the root mean square (RMS) deviation of the signal from the mean. The effective duration ($\Delta t$) and effective frequency width ($\Delta f$) are given by
+\begin{equation*}
+\Delta t = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(t)(\mu_t - t)^2\psi ^*(t)dt}}{\int_{-\infty}^{\infty}{\psi(t)\psi ^*(t)dt}}} ;
+\Delta f = \sqrt{\frac{\int_{-\infty}^{\infty}{\Psi(f)(\mu_f - f)^2\Psi ^*(f)df}}{\int_{-\infty}^{\infty}{\Psi(f)\Psi ^*(f)df}}}
+\end{equation*}
+
+where $\mu_t$ and $\mu_f$ are mean time and mean frequency and it is given by
+\begin{equation*}
+\mu_t = \frac{\int_{-\infty}^{\infty}{\psi(t)t\psi ^*(t)}}{\int_{-\infty}^{\infty}{\psi(t)\psi ^*(t)}} ;
+\mu_f = \frac{\int_{-\infty}^{\infty}{\Psi(f)f\Psi ^*(f)}}{\int_{-\infty}^{\infty}{\Psi(f)\Psi ^*(f)}}
+\end{equation*}
+
+
+\begin{equation*}
+\Delta t\Delta f = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(t)(\mu_t - t)^2\psi ^*(t)dt}}{\int_{-\infty}^{\infty}{\psi(t)\psi ^*(t)dt}} \frac{\int_{-\infty}^{\infty}{\Psi(f)(\mu_f - f)^2\Psi ^*(f)df}}{\int_{-\infty}^{\infty}{\Psi(f)\Psi ^*(f)df}}} \geq \frac{1}{4\pi}
+\end{equation*}
+
+There are three possibilities for above equation.
+
+\begin{tabular}{|c|c|c|ccc|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \textbf{$\Delta t$  $\Delta f$} & \textbf Sampling & Remarks \\
+  \hline
+  = $\frac{1}{4\pi}$ & Critical   & Special functions called GEF \\
+  \hline
+   $>$ $\frac{1}{4\pi}$ & Over   & -- \\
+  \hline
+  $<$ $\frac{1}{4\pi}$ & Under   & -- \\
+  \hline
+\end{tabular}
+
+Analogous to 1D uncertainty principle, there are two 2D uncertainty principles constraining the effective width ($\Delta x$) and the effective length ($\Delta y$) of a signal $f(x,y)$ and the effective width ($\Delta u$) and the effective length ($\Delta v$) of its 2D Fourier transform $F(u,v)$
+
+
+\begin{equation*}
+\Delta x\Delta u = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(x,y)(\mu_x - x)^2\psi ^*(x,y)dxdy}}{\int_{-\infty}^{\infty}{\psi(x,y)\psi ^*(x,y)dxdy}} \frac{\int_{-\infty}^{\infty}{\Psi(u,v)(\mu_u - u)^2\Psi ^*(u,v)dudv}}{\int_{-\infty}^{\infty}{\Psi(u,v)\Psi ^*(u,v)dudv}}} \geq \frac{1}{4\pi}
+\end{equation*}
+
+
+\begin{equation*}
+\Delta y\Delta v = \sqrt{\frac{\int_{-\infty}^{\infty}{\psi(x,y)(\mu_y - y)^2\psi ^*(x,y)dxdy}}{\int_{-\infty}^{\infty}{\psi(x,y)\psi ^*(x,y)dxdy}} \frac{\int_{-\infty}^{\infty}{\Psi(u,v)(\mu_v - v)^2\Psi ^*(u,v)dudv}}{\int_{-\infty}^{\infty}{\Psi(u,v)\Psi ^*(u,v)dudv}}} \geq \frac{1}{4\pi}
+\end{equation*}
+
+\begin{equation*}
+\Delta x\Delta u  \Delta y\Delta v    \geq \frac{1}{16\pi^2}
+\end{equation*}
+
+
+\section{Gabor Elementary function}
+
+Gabor in his original study proposed an elementary functions in the complex form which occupies minimum uncertainty and it is a product of harmonic oscillator of any frequency and probability function. The area occupied by elementary function in the joint time frequency domain is equal to minimum uncertainty.
+\begin{equation}
+\psi(t) = \underbrace{e^{-\alpha ^2(t-t_0)^2}}_v\overbrace{e^{j2\pi f_0 t+\phi}}^w
+\end{equation}
+
+$v$ represents the probability function and $w$ represents simple harmonic oscillator.
+$\Psi(f)$ is the GEF in the frequency domain. The GEF in the frequency domain is attained by taking the Fourier transform of the GEF.
+\begin{equation*}
+\Psi(f) = {\int_{-\infty}^{\infty}{\psi(t) e^{-j2\pi ft}dt}};
+\Psi(f) = {\int_{-\infty}^{\infty}{e^{-\alpha ^2(t-t_0)^2}e^{j2\pi f_0 t+\phi} e^{-j2\pi ft}dt}}\\
+\end{equation*}
+
+\begin{equation*}
+\Psi(f) = {\int_{-\infty}^{\infty}{e^{-\alpha ^2(t-t_0)^2}e^{j2\pi t(f_0-f) +\phi}dt}}
+\end{equation*}
+
+\begin{equation*}
+\Psi(f) = e^\phi{\int_{-\infty}^{\infty}{e^{-\alpha ^2(t-t_0)^2}e^{j2\pi t(f_0-f) }dt}}
+\end{equation*}
+
+when $t_0$ is 0, then
+
+\begin{equation}
+\Psi(f) = e^\phi{\int_{-\infty}^{\infty}{e^{-\alpha ^2 t^2}e^{j2\pi t(f_0-f) }dt}}
+\end{equation}
+
+
+This is of the form.
+\begin{equation*}
+\int_{-\infty}^{\infty}e^{2bx - ax^2 }dx = \sqrt{\frac{\pi}{a}} e^\frac{b^2}{a}
+\end{equation*}
+where $b = j \pi(f_0-f)$ and $a = \alpha ^ 2$
+
+\begin{equation*}
+\Psi(f) = \sqrt{\frac{\pi}{\alpha ^2}} e^\frac{{(j\pi (f_0-f))}^2}{\alpha ^2}e^\phi
+\end{equation*}
+\begin{equation*}
+\Psi(f) = \sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 ({f_0-f})^2+\phi}
+\end{equation*}
+$\alpha$ is connecting the GEF between time and frequency domain. $\psi(t)$ and $\Psi(f)$ occupies the minimum uncertainty in time and frequency domain.
+
+\subsection {Gabor Elementary Function in 2D}
+The generalized form of Gabor elementary function in 2D is given by
+\begin{equation*}
+\psi(x,y) = e^{-(Ax^2+Bxy+Cx+Dy+Ey^2+F)}
+\end{equation*}
+\begin{equation*}
+\psi(x,y) = e^{-(\alpha ^2 x_a^2 + \beta ^2 y_a^2)}e^{j2\pi (u_0x+v_0x)}
+\end{equation*}
+\begin{equation*}
+\psi(x,y) = e^{-(\alpha ^2 x_a^2 + \beta ^2 y_a^2)}e^{j2\pi (u_0x+v_0x)} = e^A e^B
+\end{equation*}
+\begin{align*}
+A& = -(\alpha ^2 x_a^2 + \beta ^2 y_a^2) &
+B& = j2\pi (u_0x+v_0x) \\
+ x_a& = x \cos\theta+ y \sin\theta &
+ y_a& = -x \sin\theta+ y \cos\theta\\
+ u_0& = f_0 \cos\theta &
+ v_0& = f_0 \sin\theta
+\end{align*}
+\begin{align*}
+A& = -(\alpha ^2 (x \cos\theta+ y \sin\theta)^2 + \beta ^2 (-x \sin\theta+ y \cos\theta)^2) \\
+A& = -(\alpha ^2 (x^2 \cos^2\theta+ y^2 \sin^2\theta+2xy \cos\theta \sin\theta) \\
+& + \beta ^2 (x^2 \sin^2\theta+ y^2 \cos^2\theta -2xy \sin\theta \cos\theta))
+\end{align*}
+
+
+\subsection{Proof: GEF has minimum uncertainty in the time-frequency domain}
+
+I believe, we will better understand physical or mathematical concept by performing a step wise derivation. Let me do a step wise derivation to prove that GEF has a minimum uncertainty for a special case. Let me simplify the GEF by taking GEF at zero frequency, $t_0 = 0$ and $\phi = 0$,the Gabor elementary function and Fourier transform of GEF are given by
+\begin{equation*}
+\psi(t) = e^{-\alpha ^2 t^2}
+\end{equation*}
+
+\begin{equation*}
+\Psi(f) = \sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2}
+\end{equation*}
+
+Effective duration $\Delta t$ is given by:
+
+\begin{equation*}
+\Delta t = \sqrt{\frac{\int_{-\infty}^{\infty}{e^{-\alpha ^2 t^2} t^2  e^{-\alpha ^2 t^2} dt}}{\int_{-\infty}^{\infty}{e^{-\alpha ^2 t^2} e^{-\alpha ^2 t^2}dt}}} ;
+\end{equation*}
+
+Let me take the denominator first
+
+\begin{equation*}
+\int_{-\infty}^{\infty}{e^{-\alpha ^2 t^2} e^{-\alpha ^2 t^2}dt} =\int_{-\infty}^{\infty}{e^{-2\alpha ^2 t^2} dt}
+\end{equation*}
+
+The above equation is of the form and it only applies when $a > 0$
+
+\begin{equation*}
+\int_{-\infty}^{\infty}e^{-ax^2 }dx = \sqrt{\frac{\pi}{a}}
+\end{equation*}
+
+where $a = 2\alpha ^ 2$
+
+\begin{equation*}
+\int_{-\infty}^{\infty}{e^{-2\alpha ^2 t^2} dt} = \sqrt{\frac{\pi}{2\alpha ^ 2}}
+\end{equation*}
+
+Let me take the numerator now,
+
+\begin{equation*}
+\int_{-\infty}^{\infty}{e^{-\alpha ^2 t^2} t^2 e^{-\alpha ^2 t^2}dt} =\int_{-\infty}^{\infty}{t^2 e^{-2\alpha ^2 t^2} dt}
+\end{equation*}
+
+The above equation is of the form.
+\begin{equation*}
+\int_{-\infty}^{\infty}x^2 e^{- ax^2 }dx = \frac{1}{2}\sqrt{\frac{\pi}{a^3}}
+\end{equation*}
+where $a = 2\alpha ^ 2$
+\begin{equation*}
+\int_{-\infty}^{\infty}{t^2 e^{-2\alpha ^2 t^2} dt} = \frac{1}{2} \sqrt{\frac{\pi}{({2\alpha ^2})^3}} = \frac{\sqrt{\pi}}{4 \sqrt{2}\alpha ^3}
+\end{equation*}
+
+Let me apply both numerator and denominator value to get the effective duration $\Delta t$
+
+\begin{equation*}
+\Delta t = \sqrt{\frac{\frac{\sqrt{\pi}}{4 \sqrt{2}\alpha ^3}}{\sqrt{\frac{\pi}{2\alpha ^ 2}}}} ;
+\end{equation*}
+
+Straight forward steps to simply the value of $\Delta t$
+
+\begin{equation*}
+\Delta t =  \sqrt{\frac{\sqrt{\pi}}{4 \sqrt{2}\alpha ^3}{\sqrt{\frac{2\alpha ^ 2}{\pi}}}} ;
+\end{equation*}
+
+\begin{equation*}
+\Delta t =  \sqrt{\frac{\sqrt{\pi}}{4 \sqrt{2}\alpha ^3}{\sqrt{\frac{2\alpha ^ 2}{\pi}}}} ;
+\end{equation*}
+
+\begin{equation*}
+\Delta t =  \sqrt{\frac{1}{4 \alpha ^2}};
+\end{equation*}
+
+
+\begin{equation}
+\Delta t =  \frac{1}{2 \alpha }
+\end{equation}
+
+Let me do the similar steps to calculate the effective frequency $\Delta f$. The frequency representation of the GEF is given by,
+
+\begin{equation*}
+\Psi(f) = \sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2}
+\end{equation*}
+
+Effective frequency $\Delta f$ is given by,
+
+\begin{equation*}
+\Delta f = \sqrt{\frac{\int_{-\infty}^{\infty}{\sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2} f^2 \sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2} df}}{\int_{-\infty}^{\infty}{\sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2}  \sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2} df}}} ;
+\end{equation*}
+
+Let me take the denominator first.
+
+
+\begin{equation*}
+\int_{-\infty}^{\infty}{\sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2}  \sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2} df} = \frac{\pi}{\alpha ^2} \int_{-\infty}^{\infty}{ e^{-2{(\frac{\pi} {\alpha}})^2 f^2}df}
+\end{equation*}
+
+
+
+The above equation is of the form and it only applies when $a > 0$
+
+\begin{equation*}
+\int_{-\infty}^{\infty}e^{-ax^2 }dx = \sqrt{\frac{\pi}{a}}
+\end{equation*}
+
+where $a = 2(\frac{\pi}{\alpha})^ 2$
+
+\begin{equation*}
+\frac{\pi}{\alpha ^2} \int_{-\infty}^{\infty}{ e^{-2{(\frac{\pi} {\alpha}})^2 f^2}df} = \frac{\pi}{\alpha ^2} \sqrt{\frac{\pi}{2(\frac{\pi}{\alpha})^ 2}}
+\end{equation*}
+
+Let $\beta = \frac{\pi}{\alpha}$
+\begin{equation*}
+\frac{\pi}{\alpha ^2} \int_{-\infty}^{\infty}{ e^{-2{(\frac{\pi} {\alpha}})^2 f^2}df} = \frac{\beta}{\alpha} \sqrt{\frac{\pi}{2 \beta^ 2}} = \frac{1}{\alpha} \sqrt{\frac{\pi}{2 }}
+\end{equation*}
+Let me take the numerator now.
+\begin{equation*}
+\int_{-\infty}^{\infty}{\sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2} f^2  \sqrt{\frac{\pi}{\alpha ^2}} e^{-{(\frac{\pi} {\alpha}})^2 f^2} df}
+\end{equation*}
+
+\begin{equation*}
+=\frac{\pi}{\alpha ^2}\int_{-\infty}^{\infty}{ f^2 e^{-2{(\frac{\pi} {\alpha}})^2 f^2}  df}
+\end{equation*}
+
+Substitute $\beta$ in above equation.
+
+\begin{equation*}
+=\frac{\beta}{\alpha }\int_{-\infty}^{\infty}{ f^2 e^{-2 \beta ^2 f^2}  df}
+\end{equation*}
+
+
+The above equation is of the form.
+\begin{equation*}
+\int_{-\infty}^{\infty}x^2 e^{- ax^2 }dx = \frac{1}{2}\sqrt{\frac{\pi}{a^3}}
+\end{equation*}
+where $a = 2\beta ^ 2$
+\begin{equation*}
+ = \frac{\beta}{\alpha}\frac{1}{2}\sqrt\frac{\pi}{8\beta ^6 }
+\end{equation*}
+
+\begin{equation*}
+ = \frac{\beta}{\alpha }\frac{\sqrt{\pi}}{4 \sqrt{2}\beta ^3}
+\end{equation*}
+
+Substitute the value of $\beta$
+
+\begin{equation*}
+ = \frac{1}{\alpha }\frac{\sqrt{\pi}}{4 \sqrt{2}\beta ^2}  = \frac{1}{\alpha }\frac{\sqrt{\pi} \alpha^2}{4 \sqrt{2}\pi ^2} = \frac{\sqrt{\pi} \alpha}{4 \sqrt{2}\pi ^2}
+\end{equation*}
+
+Apply the value of numerator and denominator of $\Delta f$
+
+\begin{equation*}
+\Delta f = \sqrt{\frac{\frac{\sqrt{\pi} \alpha}{4 \sqrt{2}\pi ^2}}{\frac{1}{\alpha} \sqrt{\frac{\pi}{2 }}}} = \sqrt{\frac{\sqrt{\pi} \alpha^2}{4 \sqrt{2}\pi ^2} \sqrt{\frac{2}{\pi }}}
+\end{equation*}
+
+Step wise simplification steps to get the value of $\Delta f$
+
+\begin{equation*}
+\Delta f =  \sqrt{\frac{\alpha ^2}{4 \pi ^2}}
+\end{equation*}
+
+
+\begin{equation}
+\Delta f =  \frac{\alpha}{2 \pi}
+\end{equation}
+
+Apply both the value of $\Delta f$ and $\Delta t$ from equation (8) and equation (9)
+
+\begin{equation*}
+\Delta t \Delta f =  \frac{\alpha}{2 \pi} \frac{1}{2 \alpha }
+\end{equation*}
+
+\begin{equation*}
+\boxed{\Delta t \Delta f =  \frac{1}{4 \pi}}
+\end{equation*}
+
+Hence the proof.
+
+\subsection{Application of Gabor Transformation}
+Gabor filter has significant application in the signal processing and it is proven in the recent past that it can be applied in image processing for head pose identification, scene analysis, human identification and etc. It is also applied in bio-medical physics, geophysics to better understand the signals. \\
+
+I have not seen Gabor filters applied in Financial engineering. I'm interested in applying Gabor concepts in the credit risk management to better understand the behavior of an existing or potential customer and their behaviorial evolution over the time.
+
+Anyone,both industry and academic folks, interested to study the application of Gabor in credit risk management, please contact me. I'm open for collaborative project to apply Gabor transformation in credit risk management.
+
+\end{document}
+
